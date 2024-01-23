@@ -1,0 +1,62 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Willamette Valley Multifunctional Plant List"
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Plant Type"
+        contents: 
+        - trees.qmd
+        - fruit-trees.qmd
+        - vines.qmd
+        - shrubs.qmd
+        - nuts.qmd
+        - berries.qmd
+        - ground-cover.qmd
+        - herbs.qmd
+        - weeds.qmd
+        - medicinal.qmd
+  navbar:
+    title: false
+    #logo:
+    #logo-alt: "Plant"
+    #logo-href: index.qmd
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - text: "Plant Type"
+        menu: 
+          - trees.qmd
+          - fruit-trees.qmd
+          - vines.qmd
+          - shrubs.qmd
+          - nuts.qmd
+          - berries.qmd
+          - ground-cover.qmd
+          - herbs.qmd
+          - weeds.qmd
+          - medicinal.qmd
+    tools:
+      - icon: x
+        href: https://twitter.com
+      - icon: facebook
+        href: https://facebook.com
+      - icon: instagram
+        href: https://instagram.com
+      - icon: github
+        href: https://github.com 
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+    notebook-links: false
+    page-layout: full
+
+
+

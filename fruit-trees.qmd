@@ -1,0 +1,18 @@
+---
+title: "Fruit Trees"
+---
+
+Add some introductory language here. Maybe include some background information about the history/resiliency of fruit trees in the greater Willamette Valley. 
+
+{{< embed jupyter/google-integration.ipynb#table-fruit-trees >}}
+<br><br>
+<h5>Notes</h5>
+Soil type:<br>
+    C = clay<br>
+    CL = clay/loam<br>
+    SL = sandy/loam<br>
+    WD = <br>
+Propogation:<br>
+Water requirement:<br>
+Maintenance: <br>
+

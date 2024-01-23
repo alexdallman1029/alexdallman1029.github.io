@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Willamette Valley Multifunctional Plant List",
+    "section": "",
+    "text": "Welcome!\n\nAs people dedicated to plants, biodiversity, and healthy ecosystems, we hope these plant lists enhance your backyards, gardens, farms, and landscapes across the Willamette Valley.\nPlease write more of an introduction here, explaining the elements the data tables contain, how to use the data tables, and any other helpful information about the project.\nDo you have a few pictures we could add here? Here’s an example.\n\n\nContributors\n\nJude Hobbs, Heiko Koester, Nick Routledge, Joshua Smith, Rick Valley, and Taylor Zeigler.\nI can add links to your respective websites like I did for mine below. Just let me know which links you’d like to use.\n\nDeveloper\n\nAlex Dallman"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "trees.html",
+    "href": "trees.html",
+    "title": "Trees",
+    "section": "",
+    "text": "Data table on trees here."
+  },
+  {
+    "objectID": "fruit-trees.html",
+    "href": "fruit-trees.html",
+    "title": "Fruit Trees",
+    "section": "",
+    "text": "Add some introductory language here. Maybe include some background information about the history/resiliency of fruit trees in the greater Willamette Valley.\n\n\n\n\n\n\n\n\n\n\nCommon name\nClass\nType\nHeight\nWidth\nSun/Shade\nSoil Type\nPropagation\nNative\nWater requirement\nMaintenance\nBloom time\nFruit time\nMedicinal\nNitrogen fixer\nInsect/Bee/Birds\nOther uses\nRate of growth\nFlower color\nFall or winter cover\nPollinator habitat\n\n\n\n\nMalus spp.\nApple\nST\nD\n5' - 50'\n4' - 30'\nFull sun\nCL\nG/S/R\n\n\nR\n\n\n\n\n\n\n\n\n\n\n\n\nPyrus communis\nPear\nST\nD\n7' - 50'\n6' - 25'\nFull sun\nC/CL\nG/S\n\nF\nR\n\n\n\n\n\n\n\n\n\n\n\n\nPrunus spp.\nPlum\nST\nD\n\n\nFull sun\nCL\nG/S/R\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPyrus spp.\nAsian Pear\nT\nD\n15' - 30'\n\nFull sun\nSL\nG\n\n\nR\n\n\n\n\n\n\n\n\n\n\n\n\nPrunus persica\nPeach\nST\nD\n15' - 25'\n\nFull sun\nCL\nG/S\n\n\nR\n\n\n\n\n\n\n\n\n\n\n\n\nDiospyrus virginiana\nAmerican persimmon\nT\nD\n15' - 25'\n15' - 20'\nFull sun\nC/CL\nG/S\n\n\nLN\n\n\n\n\n\n\n\n\n\n\n\n\nDiospyrus kaki\nJapanese persimmon\nT\nD\n15' - 25'\n15' - 20'\nFull sun\nC/CL\nG\n\n\nLNM\n\n\n\n\n\n\n\n\n\n\n\n\nPrunus spp.\nCherry\n\n\n\n\nFull sun\nCL\nG/S/R\n\n\nM\n\n\n\n\n\n\n\n\n\n\n\n\nFicus carica\nFig\nST\nD\n\n\nFull sun\nCL/SL\nG/L/C\n\n\nM\n\n\n\n\n\n\n\n\n\n\n\n\nAsimina triloba\nPawpaw\nT\nD\n10' - 40'\n10' - 20'\nFull sun/Partial sun\nMany - WD best\nRoot Cutting\n\nR\nLN\n\n\n\n\n\n\n\n\n\n\n\n\nCydonia oblonga\nQuince\nS\nD\n8' - 15'\n8' - 12'\nFull sun\nCL\nG/S/R\n\n\nLN\n\n\n\n\n\n\n\n\n\n\n\n\nCornus mas\nCornelian Cherry\nST\nD\n8' - 20'\n6' - 15'\nFull sun/Partial sun\nMany\nG/S\n\nR/SDT\nLN\n\n\n\n\n\n\n\n\n\n\n\n\nMespilus germanica\nMedlar\nST\n\n\n\nFull sun\nC/CL\nG/S\n\n\nL\n\n\n\n\n\n\n\n\n\n\n\n\nSambucus caerulea\nBlue elderberry\nST\nD\n6' - 20'\n4' - 20'\nFull sun/Partial sun\nWD/SL/CL\n\n\nR/SDT\nLNM\n\n\n\n\n\n\n\n\n\n\n\n\nMalus fiscal?\nWest Coast Crabapple\nT\nD\n8' - 40'\n\nFull sun/Partial sun\nC/CL\nS/C\n\nR/F/DT\nLNM\n\n\n\n\n\n\n\n\n\n\n\n\nLycium Barbarum\nChinese Wolfberry\nS\nD\n8' - 15'\n10' - 20'\nFull sun/Partial sun\nWD\nS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNotes\n\nSoil type: C = clay CL = clay/loam SL = sandy/loam WD =  Propogation: Water requirement: Maintenance:"
+  },
+  {
+    "objectID": "vines.html",
+    "href": "vines.html",
+    "title": "Vines",
+    "section": "",
+    "text": "Data Table on vines here."
+  },
+  {
+    "objectID": "shrubs.html",
+    "href": "shrubs.html",
+    "title": "Shrubs",
+    "section": "",
+    "text": "Data Table on shrubs here."
+  },
+  {
+    "objectID": "nuts.html",
+    "href": "nuts.html",
+    "title": "Nut Trees",
+    "section": "",
+    "text": "Data table on nut trees here."
+  },
+  {
+    "objectID": "berries.html",
+    "href": "berries.html",
+    "title": "Berries",
+    "section": "",
+    "text": "Data table on berries here."
+  },
+  {
+    "objectID": "ground-cover.html",
+    "href": "ground-cover.html",
+    "title": "Ground Cover",
+    "section": "",
+    "text": "Data table on ground cover."
+  },
+  {
+    "objectID": "herbs.html",
+    "href": "herbs.html",
+    "title": "Herbs",
+    "section": "",
+    "text": "Data table on herbs here."
+  },
+  {
+    "objectID": "weeds.html",
+    "href": "weeds.html",
+    "title": "Weeds",
+    "section": "",
+    "text": "Data table on weeds here."
+  },
+  {
+    "objectID": "medicinal.html",
+    "href": "medicinal.html",
+    "title": "Medicinal Plants",
+    "section": "",
+    "text": "Data table on medicinal plants here."
+  },
+  {
+    "objectID": "jupyter/google-integration.html",
+    "href": "jupyter/google-integration.html",
+    "title": "Willamette Valley Multifunctional Plant List",
+    "section": "",
+    "text": "import gspread\nfrom oauth2client.service_account import ServiceAccountCredentials\nimport pandas as pd\n\n\n#Setup for Google Drive and Google Sheets API\n#Need to create a service account in Google Cloud to get the JSON key: https://console.cloud.google.com/iam-admin/serviceaccounts\n#Need to enable Google Sheets and Google Drive APIs for the JSON key to work\n\nscope = [\"https://spreadsheets.google.com/feeds\",'https://www.googleapis.com/auth/spreadsheets',\"https://www.googleapis.com/auth/drive.file\",\"https://www.googleapis.com/auth/drive\"]\ncreds = ServiceAccountCredentials.from_json_keyfile_name('willamete-valley-plant-list-9d764982f071.json', scope)\nclient = gspread.authorize(creds)\n\n\n#Load data from Google Sheets\nsheet = client.open(\"Willamette Valley Multifunctional Plant List\").sheet1\ndata = sheet.get_all_records()\ndf_fruit_trees = pd.DataFrame(data)\n\n\npd.set_option('display.max_columns', None)\n\n\ndf_fruit_trees.set_index(\"Botanical name\", inplace=True)\ndf_fruit_trees.index.name = None \n\ndf_fruit_trees\n\n\n\n\n\n\n\n\nCommon name\nClass\nType\nHeight\nWidth\nSun/Shade\nSoil Type\nPropagation\nNative\nWater requirement\nMaintenance\nBloom time\nFruit time\nMedicinal\nNitrogen fixer\nInsect/Bee/Birds\nOther uses\nRate of growth\nFlower color\nFall or winter cover\nPollinator habitat\n\n\n\n\nMalus spp.\nApple\nST\nD\n5' - 50'\n4' - 30'\nFull sun\nCL\nG/S/R\n\n\nR\n\n\n\n\n\n\n\n\n\n\n\n\nPyrus communis\nPear\nST\nD\n7' - 50'\n6' - 25'\nFull sun\nC/CL\nG/S\n\nF\nR\n\n\n\n\n\n\n\n\n\n\n\n\nPrunus spp.\nPlum\nST\nD\n\n\nFull sun\nCL\nG/S/R\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPyrus spp.\nAsian Pear\nT\nD\n15' - 30'\n\nFull sun\nSL\nG\n\n\nR\n\n\n\n\n\n\n\n\n\n\n\n\nPrunus persica\nPeach\nST\nD\n15' - 25'\n\nFull sun\nCL\nG/S\n\n\nR\n\n\n\n\n\n\n\n\n\n\n\n\nDiospyrus virginiana\nAmerican persimmon\nT\nD\n15' - 25'\n15' - 20'\nFull sun\nC/CL\nG/S\n\n\nLN\n\n\n\n\n\n\n\n\n\n\n\n\nDiospyrus kaki\nJapanese persimmon\nT\nD\n15' - 25'\n15' - 20'\nFull sun\nC/CL\nG\n\n\nLNM\n\n\n\n\n\n\n\n\n\n\n\n\nPrunus spp.\nCherry\n\n\n\n\nFull sun\nCL\nG/S/R\n\n\nM\n\n\n\n\n\n\n\n\n\n\n\n\nFicus carica\nFig\nST\nD\n\n\nFull sun\nCL/SL\nG/L/C\n\n\nM\n\n\n\n\n\n\n\n\n\n\n\n\nAsimina triloba\nPawpaw\nT\nD\n10' - 40'\n10' - 20'\nFull sun/Partial sun\nMany - WD best\nRoot Cutting\n\nR\nLN\n\n\n\n\n\n\n\n\n\n\n\n\nCydonia oblonga\nQuince\nS\nD\n8' - 15'\n8' - 12'\nFull sun\nCL\nG/S/R\n\n\nLN\n\n\n\n\n\n\n\n\n\n\n\n\nCornus mas\nCornelian Cherry\nST\nD\n8' - 20'\n6' - 15'\nFull sun/Partial sun\nMany\nG/S\n\nR/SDT\nLN\n\n\n\n\n\n\n\n\n\n\n\n\nMespilus germanica\nMedlar\nST\n\n\n\nFull sun\nC/CL\nG/S\n\n\nL\n\n\n\n\n\n\n\n\n\n\n\n\nSambucus caerulea\nBlue elderberry\nST\nD\n6' - 20'\n4' - 20'\nFull sun/Partial sun\nWD/SL/CL\n\n\nR/SDT\nLNM\n\n\n\n\n\n\n\n\n\n\n\n\nMalus fiscal?\nWest Coast Crabapple\nT\nD\n8' - 40'\n\nFull sun/Partial sun\nC/CL\nS/C\n\nR/F/DT\nLNM\n\n\n\n\n\n\n\n\n\n\n\n\nLycium Barbarum\nChinese Wolfberry\nS\nD\n8' - 15'\n10' - 20'\nFull sun/Partial sun\nWD\nS"
+  }
+]

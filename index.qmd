@@ -1,0 +1,22 @@
+---
+title: "Willamette Valley Multifunctional Plant List"
+---
+
+<h2>Welcome!</h2>
+
+As people dedicated to plants, biodiversity, and healthy ecosystems, we hope these plant lists enhance your backyards, gardens, farms, and landscapes across the Willamette Valley.
+
+Please write more of an introduction here, explaining the elements the data tables contain, how to use the data tables, and any other helpful information about the project.
+
+Do you have a few pictures we could add here? Here's an example. 
+
+![](images\elderberry.jpg)
+
+<h2>Contributors</h2>
+Jude Hobbs, Heiko Koester, Nick Routledge, Joshua Smith, Rick Valley, and Taylor Zeigler.
+
+I can add links to your respective websites like I did for mine below. Just let me know which links you'd like to use. 
+
+<h2>Developer</h2>
+[Alex Dallman](https://github.com/alexdallman1029)
+
