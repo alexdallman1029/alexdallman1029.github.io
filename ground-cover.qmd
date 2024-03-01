@@ -1,5 +1,79 @@
 ---
-title: "Ground Cover"
+title: "Ground Covers"
+title-block-banner: images/ground-cover-strawberry.jpg
+title-block-banner-color: white
 ---
+Ground covers in the Pacific Northwest, particularly in the fertile and diverse Willamette Valley, play a crucial role in permaculture, landscape design, and the broader ecosystem. This region, known for its mild, wet winters and warm, dry summers, hosts a wide variety of native and adapted ground cover species that thrive in its climate, contributing to sustainable gardening, agriculture, and habitat restoration efforts.
 
-Data table on ground cover.
+## Role in Permaculture
+
+In permaculture, ground covers are vital for creating a self-sustaining, productive garden ecosystem. They help in several key ways:
+
+### Soil Health
+
+Ground covers protect the soil from erosion and compaction caused by rain and wind. Their roots hold the soil in place, while their foliage intercepts water droplets, reducing their impact on the soil surface.
+
+### Moisture Retention
+
+The dense foliage of ground covers shades the soil, significantly reducing evaporation. This is particularly beneficial in the dry summer months of the Willamette Valley, helping to maintain soil moisture without constant irrigation.
+
+### Nutrient Cycling
+
+Many ground covers, especially nitrogen-fixing species, play a pivotal role in nutrient cycling. They can convert atmospheric nitrogen into forms accessible to other plants, enriching the soil and reducing the need for synthetic fertilizers.
+
+### Pest Management
+
+Diverse ground cover plantings can suppress weeds and provide habitat for beneficial insects, contributing to natural pest control and reducing reliance on pesticides.
+
+## Role in Landscape Design
+
+Ground covers are also essential in landscape design for both aesthetic and functional purposes:
+
+### Aesthetic Appeal
+
+With a variety of textures, colors, and flowering options, ground covers can create a visually appealing understory in garden designs. They offer year-round interest and can be used to fill spaces where other plants might struggle.
+
+### Low Maintenance
+
+Once established, many ground covers require minimal care, making them an attractive option for low-maintenance landscapes. They can reduce the need for mowing, weeding, and watering, saving time and resources.
+
+### Erosion Control
+
+On slopes and in areas prone to erosion, ground covers can be a practical solution, stabilizing the soil and preventing runoff.
+
+### Functional Spaces
+
+Some ground covers can withstand foot traffic, making them suitable for creating living pathways or green spaces in urban and residential designs.
+
+## Role in the Ecosystem
+
+Beyond human-designed landscapes, ground covers play a foundational role in the Willamette Valley's ecosystem:
+
+### Habitat
+
+They provide essential habitat and food sources for a variety of wildlife, including pollinators, birds, and small mammals. This supports biodiversity and promotes healthy ecosystems.
+
+### Soil Microclimate
+
+By moderating soil temperature and moisture levels, ground covers create a favorable microclimate for soil organisms, contributing to a vibrant soil ecosystem essential for nutrient cycling and soil fertility.
+
+### Carbon Sequestration
+
+Through photosynthesis and by adding organic matter to the soil, ground covers contribute to carbon sequestration, helping to mitigate climate change impacts.
+
+## Table of Ground Covers Species for Willamette Valley
+
+:::{.column-page}
+
+{{< embed jupyter/google-integration.ipynb#table-ground-cover >}}
+:::
+
+
+##### Notes
+<b>Synonyms:</b><br> A = Maianthemum racemosum (Solomons plums)\
+B = Maianthemum stellatum\
+C = Claytonia perfoliata\
+D = Petasites plamatus (Differs from P. frigidus var nivalis)
+
+<b>Soil type:</b><br> C = clay<br> CL = clay/loam<br> SL = sandy/loam<br> WD = <br> Propogation:<br> Water requirement:<br> 
+Maintenance: <br>

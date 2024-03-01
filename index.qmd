@@ -1,16 +1,18 @@
 ---
+format:
+  html:
+    css: index-styles.css
 title: "Willamette Valley Multifunctional Plant List"
+title-block-banner: images/title-banner-picture.jpg
+title-block-banner-color: white
 ---
-
-<h2>Welcome!</h2>
+<!-- ![](images/title-banner-picture.jpg){fig-align="center" width=100%} -->
 
 As people dedicated to plants, biodiversity, and healthy ecosystems, we hope these plant lists enhance your backyards, gardens, farms, and landscapes across the Willamette Valley.
 
 Please write more of an introduction here, explaining the elements the data tables contain, how to use the data tables, and any other helpful information about the project.
 
 Do you have a few pictures we could add here? Here's an example. 
-
-![](images\elderberry.jpg)
 
 <h2>Contributors</h2>
 Jude Hobbs, Heiko Koester, Nick Routledge, Joshua Smith, Rick Valley, and Taylor Zeigler.

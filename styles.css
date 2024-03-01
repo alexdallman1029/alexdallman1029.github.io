@@ -1,5 +1,41 @@
-/* css styles */
+/* global css styles */
 
+/*make table font size smaller */
 .table {
-    font-size: 0.7em !important; 
+    font-size: 0.7em !important;
+    width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
+
+
+/* Targets parameters for specific column */
+table th:nth-child(18), table td:nth-child(18) {
+    min-width: 350px !important;
+    word-wrap: break-word;
+    overflow-wrap: break-word; 
+}
+
+
+
+/*padding for main part of pages*/
+.column-page {
+    padding-left: 15px !important;
+    
+}
+
+/* custom styles for specific sections */
+.increased-padding-section {
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+/* custom styles for specific sections */
+.decreased-padding-section {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+
+}
+
+

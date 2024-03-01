@@ -4,30 +4,30 @@ project:
 
 website:
   title: "Willamette Valley Multifunctional Plant List"
-  sidebar:
-    style: "docked"
-    search: true
-    contents:
-      - section: "Plant Type"
-        contents: 
-        - trees.qmd
-        - fruit-trees.qmd
-        - vines.qmd
-        - shrubs.qmd
-        - nuts.qmd
-        - berries.qmd
-        - ground-cover.qmd
-        - herbs.qmd
-        - weeds.qmd
-        - medicinal.qmd
+  #sidebar:
+    #style: "docked"
+    #search: true
+    #contents:
+     # - section: "Plant Type"
+     #   contents: 
+     #   - trees.qmd
+     #   - fruit-trees.qmd
+     #   - vines.qmd
+     #   - shrubs.qmd
+     #   - nuts.qmd
+     #   - berries.qmd
+     #   - ground-cover.qmd
+     #   - herbs.qmd
+     #   - weeds.qmd
+     #   - medicinal.qmd
   navbar:
     title: false
-    #logo:
-    #logo-alt: "Plant"
-    #logo-href: index.qmd
+    background: "primary"
+    logo: images\elderberry-logo-square.png
+    logo-href: index.qmd
     left:
-      - href: index.qmd
-        text: Home
+      - text: "Willamette Valley Multifunctional Plant List"
+        file: index.html
       - about.qmd
       - text: "Plant Type"
         menu: 
@@ -52,7 +52,7 @@ website:
         href: https://github.com 
 format:
   html:
-    theme: flatly
+    theme: lux
     css: styles.css
     toc: true
     notebook-links: false
