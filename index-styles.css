@@ -1,14 +1,73 @@
 /* css styles  for banner on index.html*/
 
-  
+ /* banner  */
 .quarto-title-banner {
-    margin-top: -27px;
+    margin-top: -10px;
     margin-block-end: 1rem;
     position: relative;
     margin-bottom: 10px;
-    height: 60vh;
+    height: 40vh;
 }
   
 .quarto-title > h1.title {
     opacity: 0 !important;
+}
+
+
+/* fonts */
+intro-font-style {
+    font-family: Nunito Sans;
+    font-size: 2em;
+    text-transform: none !important;
+    color: #bdbdbd !important;  
+}
+
+
+h1-modified {
+    font-family: Nunito Sans;
+    text-align: center !important;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #ffffff !important;
+    font-size: calc(1.325rem + 0.9vw);
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+text-center {
+    text-align: center!important;
+}
+
+/* container/format mods */
+.flex-container {
+    display: flex;
+    gap: 10px;
+}
+
+.added-space {
+    margin-bottom: 20px;
+}
+
+.full-width-background {
+    background-color: #231f20;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+.content-container {
+    margin: 0 auto;
+    max-width: 1100px; 
+    padding: 30px;
+}
+
+.content-container-center {
+    margin: 0 auto;
+    max-width: 1100px; 
+    padding: 20px;
+    width: 50%
 }

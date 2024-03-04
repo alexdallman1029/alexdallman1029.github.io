@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -23,7 +23,7 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
@@ -45,7 +45,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -54,6 +60,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -73,10 +80,13 @@ ul.task-list li input[type="checkbox"] {
 
       .quarto-title-block .quarto-title-banner {
         color: white;
-background-image: url(images/title-banner-picture.jpg);
+background-image: url(images/banner-index-wvmpl.jpg);
 background-size: cover;
       }
 </style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -86,10 +96,10 @@ background-size: cover;
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     <img src="./images\elderberry-logo-square.png" alt="" class="navbar-logo">
     </a>
@@ -101,68 +111,68 @@ background-size: cover;
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
- <span class="menu-text">Willamette Valley Multifunctional Plant List</span></a>
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Willamette Valley Multifunctional Plant List</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">About</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-plant-type" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-plant-type" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Plant Type</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-plant-type">    
         <li>
-    <a class="dropdown-item" href="./trees.html" rel="" target="">
+    <a class="dropdown-item" href="./trees.html">
  <span class="dropdown-text">Trees</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./fruit-trees.html" rel="" target="">
+    <a class="dropdown-item" href="./fruit-trees.html">
  <span class="dropdown-text">Fruit Trees</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./vines.html" rel="" target="">
+    <a class="dropdown-item" href="./vines.html">
  <span class="dropdown-text">Vines</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./shrubs.html" rel="" target="">
+    <a class="dropdown-item" href="./shrubs.html">
  <span class="dropdown-text">Shrubs</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./nuts.html" rel="" target="">
+    <a class="dropdown-item" href="./nuts.html">
  <span class="dropdown-text">Nut Trees</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./berries.html" rel="" target="">
+    <a class="dropdown-item" href="./berries.html">
  <span class="dropdown-text">Berries</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./ground-cover.html" rel="" target="">
+    <a class="dropdown-item" href="./ground-cover.html">
  <span class="dropdown-text">Ground Covers</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./herbs.html" rel="" target="">
+    <a class="dropdown-item" href="./herbs.html">
  <span class="dropdown-text">Herbs</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./weeds.html" rel="" target="">
+    <a class="dropdown-item" href="./weeds.html">
  <span class="dropdown-text">Weeds</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./medicinal.html" rel="" target="">
+    <a class="dropdown-item" href="./medicinal.html">
  <span class="dropdown-text">Medicinal Plants</span></a>
   </li>  
     </ul>
   </li>
 </ul>
-            <div class="quarto-navbar-tools ms-auto tools-wide">
-    <a href="https://twitter.com" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-x"></i></a>
-    <a href="https://facebook.com" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-facebook"></i></a>
-    <a href="https://instagram.com" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-instagram"></i></a>
-    <a href="https://github.com" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools tools-wide">
+    <a href="https://twitter.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-x"></i></a>
+    <a href="https://facebook.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-facebook"></i></a>
+    <a href="https://instagram.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-instagram"></i></a>
+    <a href="https://github.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -175,7 +185,7 @@ background-size: cover;
   </div>
     
   
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-page">
 
       
     
@@ -186,30 +196,943 @@ background-size: cover;
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
 
 
-<!-- ![](images/title-banner-picture.jpg){fig-align="center" width=100%} -->
+
+<p><intro-font-style> Welcome to the Willamette Valley Multifunctional Plant List.</intro-font-style></p>
+<!--Buttons -->
+<div class="added-space">
+<div class="flex-container">
+<p><a href="./about.html"> <button type="button" class="btn btn-primary">About the Project</button></a> <a href="#plant-tables"><button type="button" class="btn btn-outline-primary">Jump to Tables</button></a></p>
+</div>
+</div>
+<!-- end buttons -->
+<!-- First set of columns -->
+<div class="columns">
+<div class="column">
 <p>As people dedicated to plants, biodiversity, and healthy ecosystems, we hope these plant lists enhance your backyards, gardens, farms, and landscapes across the Willamette Valley.</p>
 <p>Please write more of an introduction here, explaining the elements the data tables contain, how to use the data tables, and any other helpful information about the project.</p>
-<p>Do you have a few pictures we could add here? Here’s an example.</p>
-<h2 class="anchored">
-Contributors
-</h2>
-<p>Jude Hobbs, Heiko Koester, Nick Routledge, Joshua Smith, Rick Valley, and Taylor Zeigler.</p>
-<p>I can add links to your respective websites like I did for mine below. Just let me know which links you’d like to use.</p>
-<h2 class="anchored">
-Developer
-</h2>
-<p><a href="https://github.com/alexdallman1029">Alex Dallman</a></p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div><div class="column">
+<p><img src="images\index-apples.jpg" class="img-fluid"></p>
+</div>
+</div>
+<!-- end first section -->
+<!-- Second section -->
+<div class="full-width-background">
+<div class="content-container">
+<div class="content-container-center">
+<p><h1-modified> How to Use This Site</h1-modified></p>
+</div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+</div>
+<!-- end second section -->
+<div class="added-space">
+
+</div>
+<!-- table section -->
+<section id="plant-tables" class="level1">
+<h1>Plants Lists at a Glance</h1>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Ground Cover</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Fruit Trees</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div class="quarto-embed-nb-cell" data-notebook="C:\Users\alexa\alexdallman1029.github.io\jupyter\google-integration.ipynb" data-notebook-cellid="cell-table-ground-cover">
+<div id="cell-table-ground-cover" class="cell" data-execution_count="10">
+<div id="table-ground-cover" class="cell-output cell-output-display" data-execution_count="10">
+<div>
+<div>
 
 
+<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">Common name</th>
+<th data-quarto-table-cell-role="th">Class</th>
+<th data-quarto-table-cell-role="th">Type</th>
+<th data-quarto-table-cell-role="th">Height</th>
+<th data-quarto-table-cell-role="th">Width</th>
+<th data-quarto-table-cell-role="th">Sun/Shade</th>
+<th data-quarto-table-cell-role="th">Soil Type</th>
+<th data-quarto-table-cell-role="th">Propagation</th>
+<th data-quarto-table-cell-role="th">Native</th>
+<th data-quarto-table-cell-role="th">Water requirement</th>
+<th data-quarto-table-cell-role="th">Maintenance</th>
+<th data-quarto-table-cell-role="th">Bloom time</th>
+<th data-quarto-table-cell-role="th">Fruit time</th>
+<th data-quarto-table-cell-role="th">Medicinal</th>
+<th data-quarto-table-cell-role="th">Nitrogen fixer</th>
+<th data-quarto-table-cell-role="th">Insect/Bee/Birds</th>
+<th data-quarto-table-cell-role="th">Other uses</th>
+<th data-quarto-table-cell-role="th">Rate of growth</th>
+<th data-quarto-table-cell-role="th">Flower color</th>
+<th data-quarto-table-cell-role="th">Fall or winter cover</th>
+<th data-quarto-table-cell-role="th">Pollinator habitat</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Fragaria spp. (x ananassa &amp; vesca?)</td>
+<td>Strawberry</td>
+<td>GC</td>
+<td>E</td>
+<td>3"</td>
+<td>6'</td>
+<td></td>
+<td>WD</td>
+<td>Runner</td>
+<td></td>
+<td>R</td>
+<td>LN</td>
+<td>Spring</td>
+<td>Summer</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Ceanothus Cuneatus</td>
+<td>Buckbrush</td>
+<td>S</td>
+<td>EG</td>
+<td>3' - 8'</td>
+<td></td>
+<td></td>
+<td>Very WD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Spring</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Flowers for soap. Leaves for tea. Seeds edible. Roots for red dye &amp; medicine.</td>
+<td></td>
+<td></td>
+<td>FCRMW</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Arctostaphylos uva-ursi</td>
+<td>Kinnikinnick</td>
+<td>GC</td>
+<td>EG</td>
+<td>1" - 5"</td>
+<td>to 15'</td>
+<td></td>
+<td>Many</td>
+<td></td>
+<td></td>
+<td>R - DT</td>
+<td>LN</td>
+<td>Mar - June</td>
+<td>Summer</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Best for highly maintained areas. Can be overwhelmed by weeds. Used for erosion control or for acidic low fertility areas</td>
+<td>MF</td>
+<td></td>
+<td>WPI</td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Smilacina Racemosa - See A</td>
+<td></td>
+<td>P</td>
+<td>D</td>
+<td>1' - 3'</td>
+<td>Spread</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>R-SDT</td>
+<td>LN</td>
+<td>Mar - July</td>
+<td>Aug.</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Edible sweet fruit. New shoots in salads. Starchy roots cooked</td>
+<td>S</td>
+<td></td>
+<td>WF</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Tussilago Farfara</td>
+<td>Coltsfoot</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Montia perfoliata - See C</td>
+<td>Miner’s Lettuce</td>
+<td>AGC</td>
+<td>RESEED</td>
+<td>2" - 1'</td>
+<td>Spread</td>
+<td></td>
+<td>Rich</td>
+<td>Seed</td>
+<td></td>
+<td>R</td>
+<td>LN</td>
+<td>May - June</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Foliage fresh for salads. Mild flavor. Good texture.</td>
+<td>R</td>
+<td></td>
+<td>W</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Teucrium</td>
+<td>Germander</td>
+<td>GC</td>
+<td>E</td>
+<td>2"</td>
+<td>3'</td>
+<td></td>
+<td>CL</td>
+<td>Division</td>
+<td></td>
+<td>R</td>
+<td>LN</td>
+<td>June</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>M</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Satureja douglasii</td>
+<td>Yerba Buena</td>
+<td>GC</td>
+<td></td>
+<td>1" - 2"</td>
+<td>to 3'</td>
+<td></td>
+<td>Many</td>
+<td></td>
+<td></td>
+<td>SDT-DT</td>
+<td>LN</td>
+<td>Apr - Sept</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Foliage makes a tasty aromatic tea.</td>
+<td>S</td>
+<td></td>
+<td>W</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Coptis Sp.</td>
+<td>Goldthread</td>
+<td>GC</td>
+<td></td>
+<td>4"</td>
+<td></td>
+<td></td>
+<td>Forest Loam</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>EG</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Baccharis Magellanica</td>
+<td></td>
+<td>GC</td>
+<td></td>
+<td>6"</td>
+<td></td>
+<td></td>
+<td>Clay Loam</td>
+<td></td>
+<td></td>
+<td>DT</td>
+<td>ZIP</td>
+<td></td>
+<td></td>
+<td>?</td>
+<td></td>
+<td></td>
+<td></td>
+<td>M</td>
+<td>Excellent</td>
+<td>W</td>
+<td>EG</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Smilacina Stellata - See B</td>
+<td>Starry False Solomon's Seal</td>
+<td>GC</td>
+<td>D</td>
+<td>10" - 12"</td>
+<td>Spread</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>R-DT</td>
+<td>LN</td>
+<td>Mar - June</td>
+<td>Aug.</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Edible sweet fruit. Tastes somewhat like raisins.</td>
+<td>MF</td>
+<td></td>
+<td>WF</td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Maianthemum Dilatatum</td>
+<td>False Lily of the Valley</td>
+<td>GC</td>
+<td>N</td>
+<td>6" - 15"</td>
+<td>Spread</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>RW</td>
+<td>LN</td>
+<td>May - June</td>
+<td>Sept.</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Edible sweet fruit. Eat in moderation to avoid stomach ache. Best combined with vegetable oil.</td>
+<td>MF</td>
+<td></td>
+<td>WF</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Peltiphyllum Peltatum</td>
+<td>Umbrella Plant</td>
+<td></td>
+<td>D</td>
+<td>1' - 4'</td>
+<td>Spread by Rhizome</td>
+<td></td>
+<td>Wet</td>
+<td></td>
+<td>?</td>
+<td>RW</td>
+<td>LN</td>
+<td>Apr - July</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Very young leaf stalks &amp; flower stalks peeled &amp; eaten fresh. Loses flavor cooked. Steam older stalks (bland &amp; stringy) / reported from Benton County south. More common S. Oregon Cascades mid to low altitudes. Inhabits western Cascade stream banks sometimes even growing in fast moving stream. Found in mixed forests &amp; Ponderosa forests. Great plumes of flowers followed by giant leaves 1' to 3' across. Round leaves face up and resemble an umbrella.</td>
+<td></td>
+<td></td>
+<td>W-PI-PU</td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Petasites Frigibus - See D</td>
+<td>Palmate Sweet Coltsfoot</td>
+<td></td>
+<td>D</td>
+<td>6" - 4'</td>
+<td>Creeping Rhizome Colonize</td>
+<td></td>
+<td>Rich Moist</td>
+<td></td>
+<td></td>
+<td>RW</td>
+<td>LN</td>
+<td>Feb - June</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Young leaves &amp; possibly flower stalks contain a modest amount of Purrolizidine Alkaloids that cause permanent liver damage. Mature leaves said to have almost none. Roots (rhizomes) may have none of this alkaloid. Indian Tribes (some) ate young leaves &amp; flower heads. Also, peeled young stalks cooked / rhizomes sometimes eaten if not used for medicine. Important salt substitute for some tribes. Leaves &amp; stems are dried, burned &amp; used as a seasoning rich in mineral salts.</td>
+<td>R</td>
+<td></td>
+<td>FW-PI</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div class="quarto-embed-nb-cell" data-notebook="C:\Users\alexa\alexdallman1029.github.io\jupyter\google-integration.ipynb" data-notebook-cellid="cell-table-fruit-trees">
+<div id="cell-table-fruit-trees" class="cell" data-tags="[&quot;table-fruit-trees&quot;]" data-execution_count="6">
+<div id="table-fruit-trees" class="cell-output cell-output-display" data-execution_count="6">
+<div>
+<div>
+
+
+<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">Common name</th>
+<th data-quarto-table-cell-role="th">Class</th>
+<th data-quarto-table-cell-role="th">Type</th>
+<th data-quarto-table-cell-role="th">Height</th>
+<th data-quarto-table-cell-role="th">Width</th>
+<th data-quarto-table-cell-role="th">Sun/Shade</th>
+<th data-quarto-table-cell-role="th">Soil Type</th>
+<th data-quarto-table-cell-role="th">Propagation</th>
+<th data-quarto-table-cell-role="th">Native</th>
+<th data-quarto-table-cell-role="th">Water requirement</th>
+<th data-quarto-table-cell-role="th">Maintenance</th>
+<th data-quarto-table-cell-role="th">Bloom time</th>
+<th data-quarto-table-cell-role="th">Fruit time</th>
+<th data-quarto-table-cell-role="th">Medicinal</th>
+<th data-quarto-table-cell-role="th">Nitrogen fixer</th>
+<th data-quarto-table-cell-role="th">Insect/Bee/Birds</th>
+<th data-quarto-table-cell-role="th">Other uses</th>
+<th data-quarto-table-cell-role="th">Rate of growth</th>
+<th data-quarto-table-cell-role="th">Flower color</th>
+<th data-quarto-table-cell-role="th">Fall or winter cover</th>
+<th data-quarto-table-cell-role="th">Pollinator habitat</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Malus spp.</td>
+<td>Apple</td>
+<td>ST</td>
+<td>D</td>
+<td>5' - 50'</td>
+<td>4' - 30'</td>
+<td>Full sun</td>
+<td>CL</td>
+<td>G/S/R</td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Pyrus communis</td>
+<td>Pear</td>
+<td>ST</td>
+<td>D</td>
+<td>7' - 50'</td>
+<td>6' - 25'</td>
+<td>Full sun</td>
+<td>C/CL</td>
+<td>G/S</td>
+<td></td>
+<td>F</td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Prunus spp.</td>
+<td>Plum</td>
+<td>ST</td>
+<td>D</td>
+<td></td>
+<td></td>
+<td>Full sun</td>
+<td>CL</td>
+<td>G/S/R</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Pyrus spp.</td>
+<td>Asian Pear</td>
+<td>T</td>
+<td>D</td>
+<td>15' - 30'</td>
+<td></td>
+<td>Full sun</td>
+<td>SL</td>
+<td>G</td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Prunus persica</td>
+<td>Peach</td>
+<td>ST</td>
+<td>D</td>
+<td>15' - 25'</td>
+<td></td>
+<td>Full sun</td>
+<td>CL</td>
+<td>G/S</td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Diospyrus virginiana</td>
+<td>American persimmon</td>
+<td>T</td>
+<td>D</td>
+<td>15' - 25'</td>
+<td>15' - 20'</td>
+<td>Full sun</td>
+<td>C/CL</td>
+<td>G/S</td>
+<td></td>
+<td></td>
+<td>LN</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Diospyrus kaki</td>
+<td>Japanese persimmon</td>
+<td>T</td>
+<td>D</td>
+<td>15' - 25'</td>
+<td>15' - 20'</td>
+<td>Full sun</td>
+<td>C/CL</td>
+<td>G</td>
+<td></td>
+<td></td>
+<td>LNM</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Prunus spp.</td>
+<td>Cherry</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Full sun</td>
+<td>CL</td>
+<td>G/S/R</td>
+<td></td>
+<td></td>
+<td>M</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Ficus carica</td>
+<td>Fig</td>
+<td>ST</td>
+<td>D</td>
+<td></td>
+<td></td>
+<td>Full sun</td>
+<td>CL/SL</td>
+<td>G/L/C</td>
+<td></td>
+<td></td>
+<td>M</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Asimina triloba</td>
+<td>Pawpaw</td>
+<td>T</td>
+<td>D</td>
+<td>10' - 40'</td>
+<td>10' - 20'</td>
+<td>Full sun/Partial sun</td>
+<td>Many - WD best</td>
+<td>Root Cutting</td>
+<td></td>
+<td>R</td>
+<td>LN</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Cydonia oblonga</td>
+<td>Quince</td>
+<td>S</td>
+<td>D</td>
+<td>8' - 15'</td>
+<td>8' - 12'</td>
+<td>Full sun</td>
+<td>CL</td>
+<td>G/S/R</td>
+<td></td>
+<td></td>
+<td>LN</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Cornus mas</td>
+<td>Cornelian Cherry</td>
+<td>ST</td>
+<td>D</td>
+<td>8' - 20'</td>
+<td>6' - 15'</td>
+<td>Full sun/Partial sun</td>
+<td>Many</td>
+<td>G/S</td>
+<td></td>
+<td>R/SDT</td>
+<td>LN</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Mespilus germanica</td>
+<td>Medlar</td>
+<td>ST</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Full sun</td>
+<td>C/CL</td>
+<td>G/S</td>
+<td></td>
+<td></td>
+<td>L</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Sambucus caerulea</td>
+<td>Blue elderberry</td>
+<td>ST</td>
+<td>D</td>
+<td>6' - 20'</td>
+<td>4' - 20'</td>
+<td>Full sun/Partial sun</td>
+<td>WD/SL/CL</td>
+<td></td>
+<td></td>
+<td>R/SDT</td>
+<td>LNM</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Malus fiscal?</td>
+<td>West Coast Crabapple</td>
+<td>T</td>
+<td>D</td>
+<td>8' - 40'</td>
+<td></td>
+<td>Full sun/Partial sun</td>
+<td>C/CL</td>
+<td>S/C</td>
+<td></td>
+<td>R/F/DT</td>
+<td>LNM</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Lycium Barbarum</td>
+<td>Chinese Wolfberry</td>
+<td>S</td>
+<td>D</td>
+<td>8' - 15'</td>
+<td>10' - 20'</td>
+<td>Full sun/Partial sun</td>
+<td>WD</td>
+<td>S</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- end tables -->
+<!-- Contributor section -->
+</section>
+<section id="contributors" class="level1">
+<h1>Contributors</h1>
+<div class="columns">
+<div class="column" style="width:33%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/person-crop-circle-fill.256x256.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="150"></p>
+</figure>
+</div>
+<figure class="text-center figure">
+Jude Hobbs
+</figure>
+</div><div class="column" style="width:33%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/person-crop-circle-fill.256x256.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="150"></p>
+</figure>
+</div>
+<figure class="text-center figure">
+Nick Routledge
+</figure>
+</div><div class="column" style="width:33%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/person-crop-circle-fill.256x256.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="150"></p>
+</figure>
+</div>
+<figure class="text-center figure">
+Rick Valley
+</figure>
+</div>
+</div>
+<div class="added-space">
+
+</div>
+<div class="columns">
+<div class="column" style="width:33%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/person-crop-circle-fill.256x256.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="150"></p>
+</figure>
+</div>
+<figure class="text-center figure">
+Heiko Koester
+</figure>
+</div><div class="column" style="width:33%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/person-crop-circle-fill.256x256.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="150"></p>
+</figure>
+</div>
+<figure class="text-center figure">
+Joshua Smith
+</figure>
+</div><div class="column" style="width:33%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/person-crop-circle-fill.256x256.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="150"></p>
+</figure>
+</div>
+<figure class="text-center figure">
+Taylor Zeigler
+</figure>
+</div>
+</div>
+<!-- end contributor section -->
+<!-- developer section -->
+<section id="developer" class="level2">
+<h2 class="anchored" data-anchor-id="developer">Developer</h2>
+<p><a href="https://github.com/alexdallman1029">Alex Dallman</a> <!-- end developer section --></p>
+
+
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -291,10 +1214,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -304,8 +1226,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -318,6 +1249,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -361,6 +1411,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -386,6 +1437,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -446,6 +1523,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
