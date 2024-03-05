@@ -23,7 +23,7 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
@@ -66,6 +66,27 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: white;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: white;
+background-image: url(images/tree-banner.jpg);
+background-size: cover;
+      }
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -74,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -119,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
         <li>
     <a class="dropdown-item" href="./nuts.html">
- <span class="dropdown-text">Nut Trees</span></a>
+ <span class="dropdown-text">Nuts</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./berries.html">
@@ -128,18 +149,6 @@ ul.task-list li input[type="checkbox"] {
         <li>
     <a class="dropdown-item" href="./ground-cover.html">
  <span class="dropdown-text">Ground Covers</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./herbs.html">
- <span class="dropdown-text">Herbs</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./weeds.html">
- <span class="dropdown-text">Weeds</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./medicinal.html">
- <span class="dropdown-text">Medicinal Plants</span></a>
   </li>  
     </ul>
   </li>
@@ -155,37 +164,599 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Trees</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-body">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#role-in-permaculture" id="toc-role-in-permaculture" class="nav-link active" data-scroll-target="#role-in-permaculture">Role in Permaculture</a>
+  <ul class="collapse">
+  <li><a href="#microclimate-creation" id="toc-microclimate-creation" class="nav-link" data-scroll-target="#microclimate-creation">Microclimate Creation</a></li>
+  <li><a href="#soil-health" id="toc-soil-health" class="nav-link" data-scroll-target="#soil-health">Soil Health</a></li>
+  <li><a href="#water-management" id="toc-water-management" class="nav-link" data-scroll-target="#water-management">Water Management</a></li>
+  <li><a href="#biodiversity-support" id="toc-biodiversity-support" class="nav-link" data-scroll-target="#biodiversity-support">Biodiversity Support</a></li>
+  </ul></li>
+  <li><a href="#role-in-landscape-design" id="toc-role-in-landscape-design" class="nav-link" data-scroll-target="#role-in-landscape-design">Role in Landscape Design</a>
+  <ul class="collapse">
+  <li><a href="#visual-impact" id="toc-visual-impact" class="nav-link" data-scroll-target="#visual-impact">Visual Impact</a></li>
+  <li><a href="#energy-conservation" id="toc-energy-conservation" class="nav-link" data-scroll-target="#energy-conservation">Energy Conservation</a></li>
+  <li><a href="#urban-canopy-enhancement" id="toc-urban-canopy-enhancement" class="nav-link" data-scroll-target="#urban-canopy-enhancement">Urban Canopy Enhancement</a></li>
+  </ul></li>
+  <li><a href="#role-in-the-ecosystem" id="toc-role-in-the-ecosystem" class="nav-link" data-scroll-target="#role-in-the-ecosystem">Role in the Ecosystem</a>
+  <ul class="collapse">
+  <li><a href="#carbon-sequestration" id="toc-carbon-sequestration" class="nav-link" data-scroll-target="#carbon-sequestration">Carbon Sequestration</a></li>
+  <li><a href="#water-cycle-regulation" id="toc-water-cycle-regulation" class="nav-link" data-scroll-target="#water-cycle-regulation">Water Cycle Regulation</a></li>
+  <li><a href="#soil-protection" id="toc-soil-protection" class="nav-link" data-scroll-target="#soil-protection">Soil Protection</a></li>
+  <li><a href="#habitat-connectivity" id="toc-habitat-connectivity" class="nav-link" data-scroll-target="#habitat-connectivity">Habitat Connectivity</a></li>
+  </ul></li>
+  <li><a href="#ground-cover-list" id="toc-ground-cover-list" class="nav-link" data-scroll-target="#ground-cover-list">Table of Tree Species for Willamette Valley</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block page-columns page-full column-body" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Trees</h1>
+
+
+
+
+<p>The Willamette Valley region is home to a vast array of native and nonnative tree species that flourish in its temperate climate. They are more than just components of the landscape; they are vital, living elements that connect the soil, water, air, and wildlife. Their preservation and thoughtful integration into human landscapes are essential for the health and sustainability of the region.</p>
+<div class="added-space">
+
+</div>
+<div class="added-space">
+<p><a href="#ground-cover-list"> <button type="button" class="btn btn-primary">Jump to Plant List</button></a></p>
+</div>
+<section id="role-in-permaculture" class="level2">
+<h2 class="anchored" data-anchor-id="role-in-permaculture">Role in Permaculture</h2>
+<p>In permaculture, trees are cornerstone elements that support the creation of diverse, resilient, and sustainable ecosystems. They contribute in several crucial ways:</p>
+<section id="microclimate-creation" class="level3">
+<h3 class="anchored" data-anchor-id="microclimate-creation">Microclimate Creation</h3>
+<p>Trees play a significant role in creating and moderating microclimates within a garden or landscape. Their canopy provides shade, reducing soil temperature and moisture loss during the region’s dry summers.</p>
+</section>
+<section id="soil-health" class="level3">
+<h3 class="anchored" data-anchor-id="soil-health">Soil Health</h3>
+<p>The root systems of trees help to prevent soil erosion and compaction, enhancing soil structure and fertility. Leaf litter and other organic material from trees add vital nutrients back into the soil, promoting a healthy soil microbiome.</p>
+</section>
+<section id="water-management" class="level3">
+<h3 class="anchored" data-anchor-id="water-management">Water Management</h3>
+<p>Trees are essential for managing water within a permaculture system. They can help to absorb excess rainfall, reducing runoff and the risk of flooding. Additionally, their presence can increase groundwater recharge.</p>
+</section>
+<section id="biodiversity-support" class="level3">
+<h3 class="anchored" data-anchor-id="biodiversity-support">Biodiversity Support</h3>
+<p>Trees provide habitat and food for a wide range of wildlife, including birds, insects, and mammals. This biodiversity is crucial for pollination, pest control, and creating a balanced ecosystem.</p>
+</section>
+</section>
+<section id="role-in-landscape-design" class="level2">
+<h2 class="anchored" data-anchor-id="role-in-landscape-design">Role in Landscape Design</h2>
+<p>Beyond their ecological benefits, trees are also pivotal in landscape design, offering structure, shade, and aesthetic appeal:</p>
+<section id="visual-impact" class="level3">
+<h3 class="anchored" data-anchor-id="visual-impact">Visual Impact</h3>
+<p>With their diverse forms, foliage, flowers, and bark, trees add visual interest and define the character of a landscape. They can be used as focal points, to frame views, or to create privacy and screening.</p>
+</section>
+<section id="energy-conservation" class="level3">
+<h3 class="anchored" data-anchor-id="energy-conservation">Energy Conservation</h3>
+<p>Strategically placed trees can significantly reduce heating and cooling costs for nearby buildings by providing shade in the summer and windbreaks in the winter.</p>
+</section>
+<section id="urban-canopy-enhancement" class="level3">
+<h3 class="anchored" data-anchor-id="urban-canopy-enhancement">Urban Canopy Enhancement</h3>
+<p>In urban areas, trees contribute to the urban canopy, improving air quality, reducing urban heat island effects, and providing green spaces for community recreation and wellbeing.</p>
+</section>
+</section>
+<section id="role-in-the-ecosystem" class="level2">
+<h2 class="anchored" data-anchor-id="role-in-the-ecosystem">Role in the Ecosystem</h2>
+<p>Trees are foundational to the Willamette Valley’s broader ecosystem, playing roles that extend far beyond human uses:</p>
+<section id="carbon-sequestration" class="level3">
+<h3 class="anchored" data-anchor-id="carbon-sequestration">Carbon Sequestration</h3>
+<p>Trees are powerful allies in the fight against climate change, capturing carbon dioxide from the atmosphere and storing carbon in their wood, leaves, and soil.</p>
+</section>
+<section id="water-cycle-regulation" class="level3">
+<h3 class="anchored" data-anchor-id="water-cycle-regulation">Water Cycle Regulation</h3>
+<p>Through the process of transpiration, trees play a critical role in the water cycle, helping to regulate local and regional climates.</p>
+</section>
+<section id="soil-protection" class="level3">
+<h3 class="anchored" data-anchor-id="soil-protection">Soil Protection</h3>
+<p>Tree roots stabilize the soil, reducing erosion and improving water infiltration, which is especially important in areas prone to heavy rainfalls.</p>
+</section>
+<section id="habitat-connectivity" class="level3">
+<h3 class="anchored" data-anchor-id="habitat-connectivity">Habitat Connectivity</h3>
+<p>Large trees and forested areas provide crucial corridors for wildlife, allowing for movement, migration, and genetic exchange between populations.</p>
+</section>
+</section>
+<section id="ground-cover-list" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="ground-cover-list">Table of Tree Species for Willamette Valley</h2>
+<div class="column-page">
+<div class="quarto-embed-nb-cell" data-notebook="C:\Users\alexa\alexdallman1029.github.io\jupyter\trees.ipynb" data-notebook-cellid="cell-plant-table">
+<div id="cell-plant-table" class="cell" data-execution_count="7">
+<div id="plant-table" class="cell-output cell-output-display">
+<div>
+<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">Common name</th>
+<th data-quarto-table-cell-role="th">Class</th>
+<th data-quarto-table-cell-role="th">Type</th>
+<th data-quarto-table-cell-role="th">Height</th>
+<th data-quarto-table-cell-role="th">Width</th>
+<th data-quarto-table-cell-role="th">Sun/Shade</th>
+<th data-quarto-table-cell-role="th">Soil Type</th>
+<th data-quarto-table-cell-role="th">Propagation</th>
+<th data-quarto-table-cell-role="th">Native</th>
+<th data-quarto-table-cell-role="th">Water requirement</th>
+<th data-quarto-table-cell-role="th">Maintenance</th>
+<th data-quarto-table-cell-role="th">Bloom time</th>
+<th data-quarto-table-cell-role="th">Fruit time</th>
+<th data-quarto-table-cell-role="th">Medicinal</th>
+<th data-quarto-table-cell-role="th">Nitrogen fixer</th>
+<th data-quarto-table-cell-role="th">Insect/Bee/Birds</th>
+<th data-quarto-table-cell-role="th">Other uses</th>
+<th data-quarto-table-cell-role="th">Rate of growth</th>
+<th data-quarto-table-cell-role="th">Flower color</th>
+<th data-quarto-table-cell-role="th">Fall or winter cover</th>
+<th data-quarto-table-cell-role="th">Pollinator habitat</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Acer macrophyllum</td>
+<td>Big leaf maple</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img src=".\images/partial-sun-full-shade.png" width="30" height="30"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Fruit has irritating hairs</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Almus oregona</td>
+<td>Red Aader</td>
+<td>T</td>
+<td>D</td>
+<td>30' - 120'</td>
+<td></td>
+<td><img src=".\images/full-shade.png" width="30" height="30"></td>
+<td></td>
+<td></td>
+<td><img src=".\images/check.png" width="30" height="30"></td>
+<td>R</td>
+<td>M</td>
+<td></td>
+<td></td>
+<td><img src=".\images/check.png" width="30" height="30"></td>
+<td><img src=".\images/check.png" width="30" height="30"></td>
+<td></td>
+<td>Attractive to tent caterpillars. Useful hardwood coppice.</td>
+<td>R</td>
+<td></td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Tilia spp?</td>
+<td>Linden (cordifolia?)</td>
+<td>T</td>
+<td></td>
+<td></td>
+<td></td>
+<td><img src=".\images/full-shade.png" width="30" height="30"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Edible leaves</td>
+<td><img src=".\images/check.png" width="30" height="30"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Rhamnus purshiana</td>
+<td>Cascasa sagrada</td>
+<td>ST</td>
+<td>D</td>
+<td>15' - 40'</td>
+<td>Not as wide as tall</td>
+<td><img src=".\images/full-sun-partial-sun.png" width="30" height="30"></td>
+<td>Many</td>
+<td></td>
+<td><img src=".\images/check.png" width="30" height="30"></td>
+<td>RDT</td>
+<td>MLN</td>
+<td></td>
+<td></td>
+<td><img src=".\images/check.png" width="30" height="30"></td>
+<td><img src=".\images/check.png" width="30" height="30"></td>
+<td></td>
+<td>Sweetish clack fruit probably best used as a dye. Good coppice wood.</td>
+<td>F</td>
+<td></td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Thuja plicata</td>
+<td>Western red cedar</td>
+<td>T</td>
+<td>EG</td>
+<td>150' - 200'</td>
+<td>Pyramid</td>
+<td><img src=".\images/partial-sun-full-shade.png" width="30" height="30"></td>
+<td>Any Moist</td>
+<td></td>
+<td><img src=".\images/check.png" width="30" height="30"></td>
+<td>RDT</td>
+<td>MLN</td>
+<td></td>
+<td></td>
+<td><img src=".\images/check.png" width="30" height="30"></td>
+<td></td>
+<td></td>
+<td>Internal medicine toxic in large doses. Wood highly rot resistant. Bark shingles. Fibers.</td>
+<td>FM</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Sambucus caerulea</td>
+<td>Blue elderberry</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img src=".\images/partial-sun-full-shade.png" width="30" height="30"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Pinus ponderosa</td>
+<td>Ponderosa pine</td>
+<td>T</td>
+<td>EG</td>
+<td>50' - 100'</td>
+<td>40' - 60'</td>
+<td><img src=".\images/full-sun-partial-sun.png" width="30" height="30"></td>
+<td>Most</td>
+<td>Seed</td>
+<td><img src=".\images/check.png" width="30" height="30"></td>
+<td>DT</td>
+<td>LN</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Quercus garryana</td>
+<td>Oregon white oak</td>
+<td>T</td>
+<td>D</td>
+<td>40' - 80'</td>
+<td>Wider than tall</td>
+<td><img src=".\images/full-sun-partial-sun.png" width="30" height="30"></td>
+<td>Many - WD</td>
+<td></td>
+<td><img src=".\images/check.png" width="30" height="30"></td>
+<td>DT</td>
+<td>LN</td>
+<td></td>
+<td></td>
+<td><img src=".\images/check.png" width="30" height="30"></td>
+<td></td>
+<td></td>
+<td>Sweet edible acorns. Takes two years to mature. Very nutritious. Excellent wood. Bark used for tanning.</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Fraximus latifolia</td>
+<td>Oregon ash</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img src=".\images/full-shade.png" width="30" height="30"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Arbutus menziesii</td>
+<td>Madrone</td>
+<td>T</td>
+<td>EG</td>
+<td>40' - 100'</td>
+<td>40' - 130'</td>
+<td><img src=".\images/full-sun-partial-sun.png" width="30" height="30"></td>
+<td>Many - WD</td>
+<td></td>
+<td><img src=".\images/check.png" width="30" height="30"></td>
+<td>DT</td>
+<td>LN</td>
+<td>Spring</td>
+<td>Fall</td>
+<td><img src=".\images/check.png" width="30" height="30"></td>
+<td></td>
+<td></td>
+<td>Edible fruit. Best cooked or dried. Bark used for red dye. Good hardwood coppice.</td>
+<td>M</td>
+<td></td>
+<td>WPIF</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Salix spp.</td>
+<td>Willow</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img src=".\images/full-shade.png" width="30" height="30"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Cercis occidentalis</td>
+<td>California redbud</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img src=".\images/full-shade.png" width="30" height="30"></td>
+<td>Well drained</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img src=".\images/check.png" width="30" height="30"></td>
+<td></td>
+<td></td>
+<td>M</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Nyssa sylvatica ?</td>
+<td>Tupelo</td>
+<td>T</td>
+<td>D</td>
+<td>30' - 50'</td>
+<td>15' - 25'</td>
+<td><img src=".\images/full-shade.png" width="30" height="30"></td>
+<td>Many</td>
+<td></td>
+<td></td>
+<td>WET</td>
+<td>LN</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Bird attracting fruit.</td>
+<td>M</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Oxydendrum arboreum</td>
+<td>Sourwood</td>
+<td>T</td>
+<td>D</td>
+<td>15' - 20'</td>
+<td>15'</td>
+<td><img src=".\images/full-sun-partial-sun.png" width="30" height="30"></td>
+<td>Many</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>S</td>
+<td></td>
+<td>W</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Eucommia ulmoides</td>
+<td>Hardy Rubber Tree</td>
+<td>T</td>
+<td>D</td>
+<td>40'-70'</td>
+<td>As wide or wider</td>
+<td><img src="nan" width="30" height="30"></td>
+<td>Many</td>
+<td>Softwood cuttings or stratified seed</td>
+<td></td>
+<td>R / SDT</td>
+<td>LN</td>
+<td>Spring</td>
+<td></td>
+<td><img src=".\images/check.png" width="30" height="30"></td>
+<td></td>
+<td></td>
+<td>Young leaves edible as steamed or stir fry vegetable, tasty delicate flavor, also good for tea. Chinese make a tonic soup by mixing the bark with chicken or pork. Leaf tea is popular for boosting the immune system, maintaining normal blood pressure levels and strengthening legs and lower back. The bark contains the compound pinoresinal diglucoside, an agent that effectively lowers early stage high blood pressure. Bark also highly regarded to treat osteoporosis and osteoarthritis, slows and may even reverse joint degeneration, reputed to strengthen bones and ligaments (connective tissues in joints). Bark used for various other illnesses in traditional Chinese medicine. Research indicates that the leaves should be interchangeable medicinally with the bark due to their comparable chemistry. Leaves used in Chinese folk medicine as an anti-fungal to treat ringworm and ahtlete feet. Winged fruit (seed) yield 27% oil used for miscellaneous industrial purposes. Bark contains about 3% rubber b y dry weight. This solid latex, called gutta percha, is used to insulate electric cables, etc. but extraction is difficult. wood is used for furniture, fuel, etc. and tends to sucker when cut (coppice).</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="added-space">
+
+</div>
+<div class="added-space">
+<div class="small-font">
+<section id="soil-type" class="level5">
+<h5 class="anchored" data-anchor-id="soil-type">Soil type</h5>
+<p>A = any<br>
+C = clay<br>
+CL = clay/loam<br>
+SL = sandy/loam<br>
+WD = well drained<br>
+</p>
+</section>
+<section id="water-requirement" class="level5">
+<h5 class="anchored" data-anchor-id="water-requirement">Water requirement</h5>
+<p>DT = drought tolerant<br>
+SDT = semi-drought tolerant<br>
+R = regular irrigation<br>
+W = wet<br>
+F = tolerates flood<br>
+</p>
+</section>
+<section id="maintenance" class="level5">
+<h5 class="anchored" data-anchor-id="maintenance">Maintenance</h5>
+<p>LN = low to none<br>
+M = moderate<br>
+</p>
+</section>
+<section id="rate-of-growth" class="level5">
+<h5 class="anchored" data-anchor-id="rate-of-growth">Rate of Growth</h5>
+<p>R = rapid<br>
+F = fast<br>
+M = moderate<br>
+S = slow<br>
+VS = very slow<br>
+</p>
+</section>
+<section id="disease-resistance" class="level5">
+<h5 class="anchored" data-anchor-id="disease-resistance">Disease Resistance</h5>
+<p>H = high<br>
+M = moderate<br>
+L = low<br>
+</p>
+</section>
+<section id="flower-color" class="level5">
+<h5 class="anchored" data-anchor-id="flower-color">Flower Color</h5>
+<p>W = white<br>
+CRM = cream<br>
+PI = pink<br>
+Y = yellow<br>
+PU = purple<br>
+R = red<br>
+V = varies<br>
+I = insignificant<br>
+F = fragrant<br>
+B = blue<br>
+</p>
+</section>
+<section id="propogation" class="level5">
+<h5 class="anchored" data-anchor-id="propogation">Propogation</h5>
+<p>G = graft<br>
+C = cutting<br>
+L = layering<br>
+S = seed<br>
+R = root suckers<br>
+</p>
+</section>
+</div>
+</div>
 </div>
 
 
-
-<div class="quarto-title-meta column-page">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>Data table on trees here.</p>
-
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

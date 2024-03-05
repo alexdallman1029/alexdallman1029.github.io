@@ -65,13 +65,35 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <!-- table section -->
 # Plants Lists at a Glance {#plant-tables}
 :::{.panel-tabset}
-## Ground Cover
 
-{{< embed jupyter/google-integration.ipynb#table-ground-cover >}}
+## Trees
+
+{{< embed jupyter/trees.ipynb#plant-table >}}
 
 ## Fruit Trees
 
-{{< embed jupyter/google-integration.ipynb#table-fruit-trees >}}
+{{< embed jupyter/fruit-trees.ipynb#plant-table >}}
+
+## Vines
+
+{{< embed jupyter/vines.ipynb#plant-table >}}
+
+## Shrubs
+
+{{< embed jupyter/shrubs.ipynb#plant-table >}}
+
+## Nuts
+
+{{< embed jupyter/nuts.ipynb#plant-table >}}
+
+## Berries
+
+{{< embed jupyter/berries.ipynb#plant-table >}}
+
+## Ground Cover
+
+{{< embed jupyter/ground-cover.ipynb#plant-table >}}
+
 :::
 <!-- end tables -->
 

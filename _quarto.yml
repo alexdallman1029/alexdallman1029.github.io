@@ -17,9 +17,6 @@ website:
      #   - nuts.qmd
      #   - berries.qmd
      #   - ground-cover.qmd
-     #   - herbs.qmd
-     #   - weeds.qmd
-     #   - medicinal.qmd
   navbar:
     title: false
     background: "primary"
@@ -38,9 +35,6 @@ website:
           - nuts.qmd
           - berries.qmd
           - ground-cover.qmd
-          - herbs.qmd
-          - weeds.qmd
-          - medicinal.qmd
     tools:
       - icon: x
         href: https://twitter.com

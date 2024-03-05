@@ -1,5 +1,134 @@
 ---
 title: "Shrubs"
+title-block-banner: images/shrubs-banner.jpg
+title-block-banner-color: white
 ---
+Shrubs in the Pacific Northwest occupy an essential niche in both natural and human-influenced environments. This region offers an ideal setting for a wide variety of native and introduced shrub species. 
 
-Data Table on shrubs here.
+:::{.added-space}
+:::
+
+:::{.added-space}
+<a href="#ground-cover-list">
+<button type="button" class="btn btn-primary">Jump to Plant List</button></a>
+
+:::
+## Role in Permaculture
+
+In permaculture designs, shrubs are key elements that enhance ecosystem diversity, resilience, and sustainability. They contribute in numerous vital ways:
+
+### Microclimate Regulation
+
+Shrubs help to create and modulate microclimates within gardens and landscapes. Their varied heights and densities offer shade and wind protection, moderating soil and air temperatures around them.
+
+### Soil Health Improvement
+
+Shrubs contribute to soil health by preventing erosion and improving soil structure through their extensive root systems. The decomposition of leaf litter and woody material from shrubs adds organic matter to the soil, enriching it with nutrients.
+
+
+### Biodiversity Enhancement
+
+Shrubs provide crucial habitats and food sources for a wide array of wildlife, including birds, insects, and small mammals. This supports pollination, pest control, and contributes to a balanced and dynamic ecosystem.
+
+## Role in Landscape Design
+
+Shrubs offer structural diversity, aesthetic beauty, and functional benefits in landscape design:
+
+### Visual and Sensory Appeal
+
+Shrubs bring a variety of forms, colors, textures, and fragrances to gardens and landscapes. They can serve as attractive focal points, hedges, borders, and background plantings, offering year-round visual interest.
+
+### Energy Efficiency
+
+Properly placed shrubs can reduce energy costs by providing cooling shade in the summer and acting as windbreaks in the winter, thereby reducing the heating and cooling needs of adjacent buildings.
+
+### Privacy and Screening
+
+Shrubs are effective for creating privacy screens and reducing noise pollution, making them invaluable in both residential and urban settings.
+
+### Wildlife Gardens
+
+Incorporating native shrubs into landscape designs can create vibrant wildlife gardens, attracting pollinators and birds, and providing shelter and food for various species.
+
+## Role in the Ecosystem
+
+Beyond their value to humans, shrubs play foundational roles in the broader ecosystem of the Willamette Valley:
+
+### Soil Conservation
+
+The root systems of shrubs stabilize the soil, preventing erosion, particularly in vulnerable areas such as slopes and riparian zones.
+
+### Ecological Connectivity
+
+Shrubs form essential layers in forested areas and open landscapes, providing connectivity and transition habitats that support wildlife movement and biodiversity.
+
+
+## Table of Shrub Species for Willamette Valley {#ground-cover-list}
+
+:::{.column-page}
+
+{{< embed jupyter/shrubs.ipynb#plant-table >}}
+:::{.added-space}
+
+:::
+
+:::{.added-space}
+::: {.small-font}
+##### Synonyms
+A = Maianthemum racemosum (Solomons plums)\
+B = Maianthemum stellatum\
+C = Claytonia perfoliata\
+D = Petasites plamatus (Differs from P. frigidus var nivalis)
+
+##### Soil type
+A = any\
+C = clay\
+CL = clay/loam\
+SL = sandy/loam\
+WD = well drained\
+
+##### Water requirement 
+DT = drought tolerant\
+SDT = semi-drought tolerant\
+R = regular irrigation\
+W  = wet\
+F  = tolerates flood\
+
+##### Maintenance
+LN = low to none\
+M  = moderate\
+
+##### Rate of Growth
+R = rapid\
+F = fast\
+M = moderate\
+S = slow\
+VS = very slow\
+
+##### Disease Resistance
+H = high\
+M = moderate\
+L = low\
+
+##### Flower Color
+W = white\
+CRM = cream\
+PI  = pink\
+Y = yellow\
+PU = purple\
+R = red\
+V = varies\
+I = insignificant\
+F = fragrant\
+B = blue\
+
+##### Propogation
+G = graft\
+C = cutting\
+L = layering\
+S = seed\
+R = root suckers\
+
+:::
+:::
+:::

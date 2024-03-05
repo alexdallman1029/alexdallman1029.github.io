@@ -1,5 +1,137 @@
 ---
 title: "Trees"
+title-block-banner: images/tree-banner.jpg
+title-block-banner-color: white
 ---
+The Willamette Valley region is home to a vast array of native and nonnative tree species that flourish in its temperate climate. They are more than just components of the landscape; they are vital, living elements that connect the soil, water, air, and wildlife. Their preservation and thoughtful integration into human landscapes are essential for the health and sustainability of the region.
 
-Data table on trees here.
+:::{.added-space}
+:::
+
+:::{.added-space}
+<a href="#ground-cover-list">
+<button type="button" class="btn btn-primary">Jump to Plant List</button></a>
+
+:::
+
+## Role in Permaculture
+
+In permaculture, trees are cornerstone elements that support the creation of diverse, resilient, and sustainable ecosystems. They contribute in several crucial ways:
+
+### Microclimate Creation
+
+Trees play a significant role in creating and moderating microclimates within a garden or landscape. Their canopy provides shade, reducing soil temperature and moisture loss during the region's dry summers.
+
+### Soil Health
+
+The root systems of trees help to prevent soil erosion and compaction, enhancing soil structure and fertility. Leaf litter and other organic material from trees add vital nutrients back into the soil, promoting a healthy soil microbiome.
+
+### Water Management
+
+Trees are essential for managing water within a permaculture system. They can help to absorb excess rainfall, reducing runoff and the risk of flooding. Additionally, their presence can increase groundwater recharge.
+
+### Biodiversity Support
+
+Trees provide habitat and food for a wide range of wildlife, including birds, insects, and mammals. This biodiversity is crucial for pollination, pest control, and creating a balanced ecosystem.
+
+## Role in Landscape Design
+
+Beyond their ecological benefits, trees are also pivotal in landscape design, offering structure, shade, and aesthetic appeal:
+
+### Visual Impact
+
+With their diverse forms, foliage, flowers, and bark, trees add visual interest and define the character of a landscape. They can be used as focal points, to frame views, or to create privacy and screening.
+
+### Energy Conservation
+
+Strategically placed trees can significantly reduce heating and cooling costs for nearby buildings by providing shade in the summer and windbreaks in the winter.
+
+### Urban Canopy Enhancement
+
+In urban areas, trees contribute to the urban canopy, improving air quality, reducing urban heat island effects, and providing green spaces for community recreation and wellbeing.
+
+## Role in the Ecosystem
+
+Trees are foundational to the Willamette Valley's broader ecosystem, playing roles that extend far beyond human uses:
+
+### Carbon Sequestration
+
+Trees are powerful allies in the fight against climate change, capturing carbon dioxide from the atmosphere and storing carbon in their wood, leaves, and soil.
+
+### Water Cycle Regulation
+
+Through the process of transpiration, trees play a critical role in the water cycle, helping to regulate local and regional climates.
+
+### Soil Protection
+
+Tree roots stabilize the soil, reducing erosion and improving water infiltration, which is especially important in areas prone to heavy rainfalls.
+
+### Habitat Connectivity
+
+Large trees and forested areas provide crucial corridors for wildlife, allowing for movement, migration, and genetic exchange between populations.
+
+
+
+## Table of Tree Species for Willamette Valley {#ground-cover-list}
+
+:::{.column-page}
+
+{{< embed jupyter/trees.ipynb#plant-table >}}
+:::{.added-space}
+
+:::
+
+:::{.added-space}
+::: {.small-font}
+##### Soil type
+A = any\
+C = clay\
+CL = clay/loam\
+SL = sandy/loam\
+WD = well drained\
+
+##### Water requirement 
+DT = drought tolerant\
+SDT = semi-drought tolerant\
+R = regular irrigation\
+W  = wet\
+F  = tolerates flood\
+
+##### Maintenance
+LN = low to none\
+M  = moderate\
+
+##### Rate of Growth
+R = rapid\
+F = fast\
+M = moderate\
+S = slow\
+VS = very slow\
+
+##### Disease Resistance
+H = high\
+M = moderate\
+L = low\
+
+##### Flower Color
+W = white\
+CRM = cream\
+PI  = pink\
+Y = yellow\
+PU = purple\
+R = red\
+V = varies\
+I = insignificant\
+F = fragrant\
+B = blue\
+
+##### Propogation
+G = graft\
+C = cutting\
+L = layering\
+S = seed\
+R = root suckers\
+
+:::
+:::
+:::

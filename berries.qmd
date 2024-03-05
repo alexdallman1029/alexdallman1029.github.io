@@ -1,9 +1,10 @@
 ---
-title: "Ground Covers"
-title-block-banner: images/ground-cover-banner.jpg
+title: "Berries"
+title-block-banner: images/berries-banner.jpg
 title-block-banner-color: white
 ---
-Ground covers in the Pacific Northwest, particularly in the fertile and diverse Willamette Valley, play a crucial role in permaculture, landscape design, and the broader ecosystem. This region, known for its mild, wet winters and warm, dry summers, hosts a wide variety of native and adapted ground cover species that thrive in its climate, contributing to sustainable gardening, agriculture, and habitat restoration efforts.
+
+Berries in the Pacific Northwest hold an invaluable position in cultivated gardens and wild landscapes. The area, celebrated for its rich soil, temperate climate, and adequate rainfall, is an ideal habitat for a broad spectrum of berry species.
 
 :::{.added-space}
 :::
@@ -14,79 +15,73 @@ Ground covers in the Pacific Northwest, particularly in the fertile and diverse 
 
 :::
 
-## Role in Permaculture
+## Role in Horticulture
 
-In permaculture, ground covers are vital for creating a self-sustaining, productive garden ecosystem. They help in several key ways:
+Berries are a cornerstone of horticultural practices in the Pacific Northwest, offering a range of benefits from the home garden to commercial agriculture.
 
-### Soil Health
+### Nutritional Value
 
-Ground covers protect the soil from erosion and compaction caused by rain and wind. Their roots hold the soil in place, while their foliage intercepts water droplets, reducing their impact on the soil surface.
+Berries are highly prized for their nutritional content, being rich in vitamins, antioxidants, and fiber. They provide essential health benefits and are a delicious component of the local diet.
 
-### Moisture Retention
+### Economic Value
 
-The dense foliage of ground covers shades the soil, significantly reducing evaporation. This is particularly beneficial in the dry summer months of the Willamette Valley, helping to maintain soil moisture without constant irrigation.
+The cultivation of berries, including strawberries, blueberries, and raspberries, represents a significant agricultural activity in the region. It supports local economies through both domestic consumption and export.
 
-### Nutrient Cycling
+### Pollination Support
 
-Many ground covers, especially nitrogen-fixing species, play a pivotal role in nutrient cycling. They can convert atmospheric nitrogen into forms accessible to other plants, enriching the soil and reducing the need for synthetic fertilizers.
+Berry plants are crucial in supporting pollinators. Their flowers offer nectar and pollen to a wide array of insects, thereby contributing to the health and sustainability of pollination networks.
 
-### Pest Management
+### Biodiversity
 
-Diverse ground cover plantings can suppress weeds and provide habitat for beneficial insects, contributing to natural pest control and reducing reliance on pesticides.
+Diverse berry plantings can enhance genetic diversity in agricultural landscapes, reducing vulnerability to pests and diseases and promoting ecological resilience.
 
 ## Role in Landscape Design
 
-Ground covers are also essential in landscape design for both aesthetic and functional purposes:
+In addition to their horticultural value, berries offer aesthetic and functional benefits in garden and landscape design.
 
 ### Aesthetic Appeal
 
-With a variety of textures, colors, and flowering options, ground covers can create a visually appealing understory in garden designs. They offer year-round interest and can be used to fill spaces where other plants might struggle.
+Berry plants, with their vibrant flowers, lush foliage, and colorful fruit, add visual interest and seasonal beauty to gardens and landscapes.
 
-### Low Maintenance
+### Edible Landscape
 
-Once established, many ground covers require minimal care, making them an attractive option for low-maintenance landscapes. They can reduce the need for mowing, weeding, and watering, saving time and resources.
+Incorporating berry plants into landscape designs offers the dual benefit of aesthetic appeal and edible produce, aligning with the principles of edible landscaping and permaculture.
 
-### Erosion Control
+### Wildlife Attraction
 
-On slopes and in areas prone to erosion, ground covers can be a practical solution, stabilizing the soil and preventing runoff.
+Berry plants attract birds, bees, and other wildlife to the garden, creating lively and dynamic outdoor spaces. This not only aids in pollination but also enhances the garden's ecological value.
 
-### Functional Spaces
+### Soil Improvement
 
-Some ground covers can withstand foot traffic, making them suitable for creating living pathways or green spaces in urban and residential designs.
+Like many perennial plants, berry bushes can help improve soil structure and fertility through their root systems and organic matter contribution.
 
 ## Role in the Ecosystem
 
-Beyond human-designed landscapes, ground covers play a foundational role in the Willamette Valley's ecosystem:
+Outside of human cultivation, wild berries play a foundational role in the Pacific Northwest's ecosystems.
 
-### Habitat
+### Food Web Support
 
-They provide essential habitat and food sources for a variety of wildlife, including pollinators, birds, and small mammals. This supports biodiversity and promotes healthy ecosystems.
+Berries serve as a vital food source for a variety of wildlife, including birds, bears, and small mammals, thus playing a key role in local food webs.
 
-### Soil Microclimate
+### Habitat Formation
 
-By moderating soil temperature and moisture levels, ground covers create a favorable microclimate for soil organisms, contributing to a vibrant soil ecosystem essential for nutrient cycling and soil fertility.
+Thickets of berry plants provide shelter and breeding sites for wildlife, contributing to habitat complexity and diversity.
 
-### Carbon Sequestration
+### Soil Conservation
 
-Through photosynthesis and by adding organic matter to the soil, ground covers contribute to carbon sequestration, helping to mitigate climate change impacts.
+The root systems of berry plants help stabilize the soil, preventing erosion and promoting soil health in natural landscapes.
 
-## Table of Ground Covers Species for Willamette Valley {#ground-cover-list}
+## Table of Berry Species for Willamette Valley {#ground-cover-list}
 
 :::{.column-page}
 
-{{< embed jupyter/ground-cover.ipynb#plant-table >}}
+{{< embed jupyter/berries.ipynb#plant-table >}}
 :::{.added-space}
 
 :::
 
 :::{.added-space}
 ::: {.small-font}
-##### Synonyms
-A = Maianthemum racemosum (Solomons plums)\
-B = Maianthemum stellatum\
-C = Claytonia perfoliata\
-D = Petasites plamatus (Differs from P. frigidus var nivalis)
-
 ##### Soil type
 A = any\
 C = clay\

@@ -1,9 +1,9 @@
 ---
-title: "Ground Covers"
-title-block-banner: images/ground-cover-banner.jpg
+title: "Fruit Trees"
+title-block-banner: images/fruit-trees-banner.jpg
 title-block-banner-color: white
 ---
-Ground covers in the Pacific Northwest, particularly in the fertile and diverse Willamette Valley, play a crucial role in permaculture, landscape design, and the broader ecosystem. This region, known for its mild, wet winters and warm, dry summers, hosts a wide variety of native and adapted ground cover species that thrive in its climate, contributing to sustainable gardening, agriculture, and habitat restoration efforts.
+Renowned for its temperate climate, and marked by mild, moist winters and warm, dry summers, the Willamette Valley region provides an ideal setting for a diverse array of fruit tree species. These trees not only enrich the diet and support the livelihoods of local communities but also play significant roles in promoting biodiversity, ecological balance, and sustainable land use practices.
 
 :::{.added-space}
 :::
@@ -11,82 +11,76 @@ Ground covers in the Pacific Northwest, particularly in the fertile and diverse 
 :::{.added-space}
 <a href="#ground-cover-list">
 <button type="button" class="btn btn-primary">Jump to Plant List</button></a>
-
 :::
 
 ## Role in Permaculture
 
-In permaculture, ground covers are vital for creating a self-sustaining, productive garden ecosystem. They help in several key ways:
+In the sphere of permaculture, fruit trees are celebrated for their ability to forge synergies that enhance garden and ecosystem productivity.
+
+### Polyculture and Biodiversity
+
+Fruit trees are keystones in polyculture systems, where their integration with other plants leads to heightened biodiversity. This diversity bolsters ecosystem resilience, mitigating pests and diseases naturally.
+
+### Microclimate Creation
+
+The canopy of fruit trees provides shade, moderates temperature, and shelters underplantings, creating a hospitable microclimate for a myriad of plant species and promoting soil moisture retention.
+
+### Vertical Layering
+
+Fruit trees add a crucial vertical dimension to permaculture designs, allowing for more efficient use of space. This layering technique enables the coexistence of multiple plant species in a single area, optimizing light exposure and nutrient availability.
 
 ### Soil Health
 
-Ground covers protect the soil from erosion and compaction caused by rain and wind. Their roots hold the soil in place, while their foliage intercepts water droplets, reducing their impact on the soil surface.
+The deep root systems of fruit trees help in aerating the soil and cycling nutrients, contributing to the overall health and fertility of the soil. Leaf litter and dropped fruit add organic matter, enhancing soil structure and nutrient content.
 
-### Moisture Retention
+### Nutritional Contributions
 
-The dense foliage of ground covers shades the soil, significantly reducing evaporation. This is particularly beneficial in the dry summer months of the Willamette Valley, helping to maintain soil moisture without constant irrigation.
+The fruits borne by these trees are rich in vitamins, minerals, and fibers, offering essential nutritional benefits to human diets and supporting food security.
 
-### Nutrient Cycling
+### Heritage and Cultural Significance
 
-Many ground covers, especially nitrogen-fixing species, play a pivotal role in nutrient cycling. They can convert atmospheric nitrogen into forms accessible to other plants, enriching the soil and reducing the need for synthetic fertilizers.
+Many fruit tree varieties have historical and cultural significance, reflecting the agricultural heritage of the region. Preserving heirloom varieties contributes to cultural identity and biodiversity.
 
-### Pest Management
-
-Diverse ground cover plantings can suppress weeds and provide habitat for beneficial insects, contributing to natural pest control and reducing reliance on pesticides.
 
 ## Role in Landscape Design
 
-Ground covers are also essential in landscape design for both aesthetic and functional purposes:
+Fruit trees also play a crucial role in landscape design, combining aesthetics with functionality.
 
-### Aesthetic Appeal
+### Shade and Structure
 
-With a variety of textures, colors, and flowering options, ground covers can create a visually appealing understory in garden designs. They offer year-round interest and can be used to fill spaces where other plants might struggle.
+The substantial size and canopy of fruit trees provide shade, cooling effects, and structural elements to garden designs, creating comfortable and inviting outdoor spaces.
 
-### Low Maintenance
+### Edible Landscaping
 
-Once established, many ground covers require minimal care, making them an attractive option for low-maintenance landscapes. They can reduce the need for mowing, weeding, and watering, saving time and resources.
-
-### Erosion Control
-
-On slopes and in areas prone to erosion, ground covers can be a practical solution, stabilizing the soil and preventing runoff.
-
-### Functional Spaces
-
-Some ground covers can withstand foot traffic, making them suitable for creating living pathways or green spaces in urban and residential designs.
+Incorporating fruit trees into landscape designs not only beautifies the space but also yields edible rewards, embodying the principles of edible landscaping and sustainability.
 
 ## Role in the Ecosystem
 
-Beyond human-designed landscapes, ground covers play a foundational role in the Willamette Valley's ecosystem:
+Fruit trees contribute significantly to the ecological balance of the Willamette Valley and beyond.
 
-### Habitat
+### Wildlife Habitat
 
-They provide essential habitat and food sources for a variety of wildlife, including pollinators, birds, and small mammals. This supports biodiversity and promotes healthy ecosystems.
-
-### Soil Microclimate
-
-By moderating soil temperature and moisture levels, ground covers create a favorable microclimate for soil organisms, contributing to a vibrant soil ecosystem essential for nutrient cycling and soil fertility.
+Fruit trees offer habitat and food sources for a variety of wildlife, including birds, bees, and other pollinators, enhancing local biodiversity and ecosystem health.
 
 ### Carbon Sequestration
 
-Through photosynthesis and by adding organic matter to the soil, ground covers contribute to carbon sequestration, helping to mitigate climate change impacts.
+By capturing carbon dioxide, fruit trees play a part in mitigating climate change, contributing to the sequestration of carbon and the reduction of greenhouse gas levels in the atmosphere.
 
-## Table of Ground Covers Species for Willamette Valley {#ground-cover-list}
+### Water Cycle Regulation
+
+Through transpiration and the interception of rainfall, fruit trees play a role in the regulation of the local water cycle, contributing to groundwater recharge and reducing runoff.
+
+## Table of Fruit Tree Species for Willamette Valley {#ground-cover-list}
 
 :::{.column-page}
 
-{{< embed jupyter/ground-cover.ipynb#plant-table >}}
+{{< embed jupyter/fruit-trees.ipynb#plant-table >}}
 :::{.added-space}
 
 :::
 
 :::{.added-space}
 ::: {.small-font}
-##### Synonyms
-A = Maianthemum racemosum (Solomons plums)\
-B = Maianthemum stellatum\
-C = Claytonia perfoliata\
-D = Petasites plamatus (Differs from P. frigidus var nivalis)
-
 ##### Soil type
 A = any\
 C = clay\

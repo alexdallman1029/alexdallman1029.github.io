@@ -1,5 +1,0 @@
----
-title: "Weeds"
----
-
-Data table on weeds here.
