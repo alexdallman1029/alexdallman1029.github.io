@@ -1,5 +1,141 @@
 ---
-title: "Nut Trees"
+title: "Ground Covers"
+title-block-banner: images/ground-cover-banner.jpg
+title-block-banner-color: white
 ---
+Ground covers in the Pacific Northwest, particularly in the fertile and diverse Willamette Valley, play a crucial role in permaculture, landscape design, and the broader ecosystem. This region, known for its mild, wet winters and warm, dry summers, hosts a wide variety of native and adapted ground cover species that thrive in its climate, contributing to sustainable gardening, agriculture, and habitat restoration efforts.
 
-Data table on nut trees here.
+:::{.added-space}
+:::
+
+:::{.added-space}
+<a href="#ground-cover-list">
+<button type="button" class="btn btn-primary">Jump to Plant List</button></a>
+
+:::
+
+## Role in Permaculture
+
+In permaculture, ground covers are vital for creating a self-sustaining, productive garden ecosystem. They help in several key ways:
+
+### Soil Health
+
+Ground covers protect the soil from erosion and compaction caused by rain and wind. Their roots hold the soil in place, while their foliage intercepts water droplets, reducing their impact on the soil surface.
+
+### Moisture Retention
+
+The dense foliage of ground covers shades the soil, significantly reducing evaporation. This is particularly beneficial in the dry summer months of the Willamette Valley, helping to maintain soil moisture without constant irrigation.
+
+### Nutrient Cycling
+
+Many ground covers, especially nitrogen-fixing species, play a pivotal role in nutrient cycling. They can convert atmospheric nitrogen into forms accessible to other plants, enriching the soil and reducing the need for synthetic fertilizers.
+
+### Pest Management
+
+Diverse ground cover plantings can suppress weeds and provide habitat for beneficial insects, contributing to natural pest control and reducing reliance on pesticides.
+
+## Role in Landscape Design
+
+Ground covers are also essential in landscape design for both aesthetic and functional purposes:
+
+### Aesthetic Appeal
+
+With a variety of textures, colors, and flowering options, ground covers can create a visually appealing understory in garden designs. They offer year-round interest and can be used to fill spaces where other plants might struggle.
+
+### Low Maintenance
+
+Once established, many ground covers require minimal care, making them an attractive option for low-maintenance landscapes. They can reduce the need for mowing, weeding, and watering, saving time and resources.
+
+### Erosion Control
+
+On slopes and in areas prone to erosion, ground covers can be a practical solution, stabilizing the soil and preventing runoff.
+
+### Functional Spaces
+
+Some ground covers can withstand foot traffic, making them suitable for creating living pathways or green spaces in urban and residential designs.
+
+## Role in the Ecosystem
+
+Beyond human-designed landscapes, ground covers play a foundational role in the Willamette Valley's ecosystem:
+
+### Habitat
+
+They provide essential habitat and food sources for a variety of wildlife, including pollinators, birds, and small mammals. This supports biodiversity and promotes healthy ecosystems.
+
+### Soil Microclimate
+
+By moderating soil temperature and moisture levels, ground covers create a favorable microclimate for soil organisms, contributing to a vibrant soil ecosystem essential for nutrient cycling and soil fertility.
+
+### Carbon Sequestration
+
+Through photosynthesis and by adding organic matter to the soil, ground covers contribute to carbon sequestration, helping to mitigate climate change impacts.
+
+## Table of Ground Covers Species for Willamette Valley {#ground-cover-list}
+
+:::{.column-page}
+
+{{< embed jupyter/ground-cover.ipynb#plant-table >}}
+:::{.added-space}
+
+:::
+
+:::{.added-space}
+::: {.small-font}
+##### Synonyms
+A = Maianthemum racemosum (Solomons plums)\
+B = Maianthemum stellatum\
+C = Claytonia perfoliata\
+D = Petasites plamatus (Differs from P. frigidus var nivalis)
+
+##### Soil type
+A = any\
+C = clay\
+CL = clay/loam\
+SL = sandy/loam\
+WD = well drained\
+
+##### Water requirement 
+DT = drought tolerant\
+SDT = semi-drought tolerant\
+R = regular irrigation\
+W  = wet\
+F  = tolerates flood\
+
+##### Maintenance
+LN = low to none\
+M  = moderate\
+
+##### Rate of Growth
+R = rapid\
+F = fast\
+M = moderate\
+S = slow\
+VS = very slow\
+
+##### Disease Resistance
+H = high\
+M = moderate\
+L = low\
+
+##### Flower Color
+W = white\
+CRM = cream\
+PI  = pink\
+Y = yellow\
+PU = purple\
+R = red\
+V = varies\
+I = insignificant\
+F = fragrant\
+B = blue\
+
+##### Propogation
+G = graft\
+C = cutting\
+L = layering\
+S = seed\
+R = root suckers\
+
+:::
+:::
+:::
