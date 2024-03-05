@@ -1,0 +1,12 @@
+/* css styles */
+
+/*make table font size smaller */
+.table {
+    font-size: 0.7em !important; 
+}
+
+/*padding for main part of pages*/
+.main-container {
+    padding-left: 40px; /* Increase left padding */
+    padding-right: 40px; /* Increase right padding */
+}

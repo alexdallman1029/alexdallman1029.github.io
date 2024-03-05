@@ -44,3 +44,11 @@ h3 {
     text-transform: none !important;
     color: #bdbdbd !important;
 }
+
+.small-font {
+    font-size: 0.7em;
+}
+
+.added-space {
+    margin-bottom: 20px;
+}

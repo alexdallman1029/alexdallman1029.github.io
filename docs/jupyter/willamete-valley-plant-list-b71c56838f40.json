@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "willamete-valley-plant-list",
+  "private_key_id": "b71c56838f40323f53455dbfa71320dc4b4a43a9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCJbnQjwR3KonSB\nKjql4rEl4IuZfpnS5MNoueNGmmq/VWUSRaiKGruETyzW/aIcxwO/i3lD63TIE2aV\nECz+8y36yg31IWcCrOZW0D7KaGF4qnYdmLjS3POzoAdr53zrnvYfGEk85M49h5YE\nfyw8/33sDLkXYpGsc9UipyPoN/62Gq3HQC/TuO9GkcVfy5h3K6eu3zzJyOH9lVhy\nzYPbIRvtP2EPTZuaoiQak6z+MTldL2ruNa2BR+7scZNBqedAnhpPJbzJ+TM1zFtQ\nf+AlfNZAKqdq+Wpjl9bdE0YVWq7TcSZHLhpZbptfufJX8KqT8QPYhyouT8DvKJTZ\nRHvinDibAgMBAAECggEAES0dASj42bizGepBY+EwuxH/heLE7o7eff9u5ds/yIOv\nkE3kx29EN2rpKOzl2XXlbzJLKM92jC5MjbMfWd/ibmvZZw/SfuBFdjKBs9dsMzdk\nGsUvIv+FdSePizoRKqZL5CKraJu/dlY0oYGUHFg25eJzMaEv9rSQE0wowzRYYRbx\nRsz4BXCfUDLIXPztk4eMaefCFu1Ui0+V+tu6i/Hka3a51ZghTnvu++6k8pz/lkXt\nx0TkHFVySBk4lktQ46daeuGXXmAECnl83u9pd/h8Vp3a4tX3q6jTUdzp9ttLejF/\n7a7xv0QqYlaSCiuJSzWTZi1mjbPVue4+6P8NpVKrsQKBgQDAcI8LuQdOGUUQ/Eva\nC3pfpkbIz0Ej8Mf0MkceNwBvTo8K3+nM76WyPE7Ppn4PjS+giPxDPEyBaH+t+0D4\noVJ7traW2eVRgcUOYJqeXdS+HFgrvDZSRF+q+cKaqMoYpts1ZPoSlYQIUck+a24I\nRL4b3GwSahoNElJCx6z3Clg1UQKBgQC20sJeKDT5RfIrQwA6lznezSDo/qXeC4Gj\nKe6SMwe0ys4c4r1MDqTS7Yxk6T+RVER8fMzrRo2x7L8HRNxRXHiTKiPj3JrDSv89\n4UvLnvRPHQIFZOw9kjxlipOQlBafDlZa7JrCu7b5TaNjalFHd0Fo+sillI4w/fEV\npslAMBYEKwKBgByKlSyv7J1wsgWq5bUZLrUw/B6cXpTuCTn2mwWoMrBPfnembg6v\nHGwq9aVmlBvKXN36cy+lqdMnpIgxU5mMk6c1mi8VciV8kbVoLoZ+dCceHRWffI8H\nBQlesbYugorVdH2e1FgdRM/XEXnohRFE4M1RC9ZPVj3KEdlFtCmPpzWBAoGAXV5Z\nwbiLBVuBiDKZpVKiTXU5f4S9tR7vQCMkIipJnz2L8hiiUHuSFd8XulmdC12b9G/Q\nP8AykVG1ZcL3Od4d/hqhZbe+mkps/G9ZRE6Tuuu3ooWeWPucOMeDAW1/+A9cbucz\nSoyPr9bEwPsFM5hmIXUij93EmKS4QTSCx3NHay0CgYEAozR/+cWnkPFIAvBVUHpf\nijyoQzxR7Ts1l2Jm6Jn2hR/KDMDptG8wj5YDQQQpXmyz8vtm9fH51aZ/3cz7RcLM\nOS6VhtGOmQIl6hLGdINQbva+eTFoaTOQIjjR6ZkONYk+ZfSVLcM1n/4GYako2Lzj\noZ3UQuK9w6dCocXVwGNjPNI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "willamette-valley-plant-list-s@willamete-valley-plant-list.iam.gserviceaccount.com",
+  "client_id": "100363556774420608215",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/willamette-valley-plant-list-s%40willamete-valley-plant-list.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

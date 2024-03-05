@@ -1,0 +1,134 @@
+---
+format:
+  html:
+    css: index-styles.css
+    toc: false
+title: "Willamette Valley Multifunctional Plant List"
+title-block-banner: images/banner-index-wvmpl.jpg
+title-block-banner-color: white
+execute:
+  echo: false
+
+---
+<intro-font-style>  Welcome to the Willamette Valley Multifunctional Plant List.</intro-font-style>
+
+<!--Buttons -->
+::: {.added-space}
+:::{.flex-container}
+<a href="about.qmd">
+<button type="button" class="btn btn-primary">About the Project</button></a>
+<a href="#plant-tables"><button type="button" class="btn btn-outline-primary">Jump to Tables</button></a>
+
+:::
+:::
+<!-- end buttons -->
+
+
+<!-- First set of columns -->
+::: {.columns}
+::: {.column}
+As people dedicated to plants, biodiversity, and healthy ecosystems, we hope these plant lists enhance your backyards, gardens, farms, and landscapes across the Willamette Valley.
+
+Please write more of an introduction here, explaining the elements the data tables contain, how to use the data tables, and any other helpful information about the project.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+:::
+::: {.column}
+![](images\index-apples.jpg)
+:::
+:::
+<!-- end first section -->
+
+
+<!-- Second section -->
+::: {.full-width-background}
+::: {.content-container}
+::: {.content-container-center}
+ <h1-modified> How to Use This Site</h1-modified>
+
+:::
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+:::
+:::
+<!-- end second section -->
+
+:::{.added-space}
+:::
+
+<!-- table section -->
+# Plants Lists at a Glance {#plant-tables}
+:::{.panel-tabset}
+## Ground Cover
+
+{{< embed jupyter/google-integration.ipynb#table-ground-cover >}}
+
+## Fruit Trees
+
+{{< embed jupyter/google-integration.ipynb#table-fruit-trees >}}
+:::
+<!-- end tables -->
+
+
+<!-- Contributor section -->
+# Contributors
+
+::::{.columns}
+::: {.column width="33%"}
+![](images/person-crop-circle-fill.256x256.png){width=150 fig-align="center"}
+
+<figure class="text-center">Jude Hobbs</figure>
+
+:::
+:::{.column width="33%"}
+![](images/person-crop-circle-fill.256x256.png){width=150 fig-align="center"}
+
+<figure class="text-center">Nick Routledge </figure>
+
+:::
+::: {.column width="33%"}
+![](images/person-crop-circle-fill.256x256.png){width=150 fig-align="center"}
+
+<figure class="text-center">
+Rick Valley</figure>
+:::
+::::
+
+::: {.added-space}
+:::
+
+:::: {.columns}
+::: {.column width="33%"}
+![](images/person-crop-circle-fill.256x256.png){width=150 fig-align="center"}
+
+<figure class="text-center">
+Heiko Koester</figure>
+
+:::
+::: {.column width="33%"}
+![](images/person-crop-circle-fill.256x256.png){width=150 fig-align="center"}
+
+<figure class="text-center"> Joshua Smith </figure>
+
+:::
+::: {.column width="33%"}
+![](images/person-crop-circle-fill.256x256.png){width=150 fig-align="center"}
+
+<figure class="text-center">Taylor Zeigler</figure>
+
+:::
+::::
+<!-- end contributor section -->
+
+
+<!-- developer section -->
+## Developer
+[Alex Dallman](https://github.com/alexdallman1029)
+<!-- end developer section -->
+
