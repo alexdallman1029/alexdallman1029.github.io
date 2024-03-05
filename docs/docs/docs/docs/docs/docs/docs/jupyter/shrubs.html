@@ -140,23 +140,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <ul class="dropdown-menu" aria-labelledby="nav-menu-plant-type">    
         <li>
     <a class="dropdown-item" href="../trees.html">
- <span class="dropdown-text">Ground Covers</span></a>
+ <span class="dropdown-text">Trees</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../fruit-trees.html">
- <span class="dropdown-text">Ground Covers</span></a>
+ <span class="dropdown-text">Fruit Trees</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../vines.html">
- <span class="dropdown-text">Ground Covers</span></a>
+ <span class="dropdown-text">Vines</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../shrubs.html">
- <span class="dropdown-text">Ground Covers</span></a>
+ <span class="dropdown-text">Shrubs</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../nuts.html">
- <span class="dropdown-text">Ground Covers</span></a>
+ <span class="dropdown-text">Nuts</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../berries.html">
@@ -164,18 +164,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
         <li>
     <a class="dropdown-item" href="../ground-cover.html">
- <span class="dropdown-text">Ground Covers</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../herbs.html">
- <span class="dropdown-text">Ground Covers</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../weeds.html">
- <span class="dropdown-text">Ground Covers</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../medicinal.html">
  <span class="dropdown-text">Ground Covers</span></a>
   </li>  
     </ul>
@@ -222,7 +210,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="cell-2" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Load data from Google Sheets</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>sheet <span class="op">=</span> client.<span class="bu">open</span>(<span class="st">"Willamette Valley Multifunctional Plant List"</span>).worksheet(<span class="st">"Ground Cover"</span>)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>sheet <span class="op">=</span> client.<span class="bu">open</span>(<span class="st">"Willamette Valley Multifunctional Plant List"</span>).worksheet(<span class="st">"Shrubs"</span>)</span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> sheet.get_all_records()</span>
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame(data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -301,339 +289,531 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">Fragaria spp. (x ananassa &amp; vesca?)</td>
-<td>Strawberry</td>
+<td data-quarto-table-cell-role="th">Ceanothus elutinus</td>
+<td>Snowbrush</td>
+<td>S</td>
+<td>EG</td>
+<td>2'-9'</td>
+<td>5'-30'</td>
+<td><img src="nan" width="30" height="30"></td>
+<td>Most</td>
+<td></td>
+<td><img src="..\images/check.png" width="30" height="30"></td>
+<td>R / DT</td>
+<td>LN</td>
+<td>Summer</td>
+<td></td>
+<td><img src="..\images/check.png" width="30" height="30"></td>
+<td><img src="..\images/check.png" width="30" height="30"></td>
+<td><img src="..\images/check.png" width="30" height="30"></td>
+<td>Roots medicinal. Nectar for beneficial insects. Leaves excellent for tea. Flowers rich in saponins for soap, shampoo, etc. Habitat for beneficial soil organisms. Does not do well with irrigation or poor drainage.</td>
+<td>F</td>
+<td>FW</td>
+<td>Evergreen</td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Mahonia nervosa</td>
+<td>Creeping mahonia</td>
 <td>GC</td>
-<td>E</td>
-<td>3"</td>
-<td>6'</td>
-<td><img src="..\images/full-shade.png" width="30" height="30"></td>
+<td>EG</td>
+<td>2'-3'</td>
+<td>2'-5'</td>
+<td><img src="nan" width="30" height="30"></td>
+<td>Most</td>
+<td></td>
+<td><img src="..\images/check.png" width="30" height="30"></td>
+<td>R / DT</td>
+<td>LN</td>
+<td>A</td>
+<td></td>
+<td><img src="..\images/check.png" width="30" height="30"></td>
+<td></td>
+<td></td>
+<td>Erosion control. Edible fruit for jam, jelly, sauce, wine. Bloom for honey. Tonic fever remedy. Root treats sore throats and cold.</td>
+<td></td>
+<td>FY</td>
+<td>yes</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Mahonia aquifolium</td>
+<td>Oregon grape</td>
+<td>S</td>
+<td>EG</td>
+<td>6'-10'</td>
+<td>4'-8'</td>
+<td><img src="nan" width="30" height="30"></td>
+<td>Most</td>
+<td></td>
+<td><img src="..\images/check.png" width="30" height="30"></td>
+<td>R / DT</td>
+<td>LN</td>
+<td>April</td>
+<td></td>
+<td><img src="..\images/check.png" width="30" height="30"></td>
+<td></td>
+<td></td>
+<td>Erosion control. Edible fruit for jam, jelly, sauce, wine. Bloom for honey. Tonic fever remedy. Root treats sore throats and cold. Bioregional "lemon juice."</td>
+<td></td>
+<td>FY</td>
+<td>yes</td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Umbellularia californica</td>
+<td>California bay / Oregon myrtle</td>
+<td>T</td>
+<td>EG</td>
+<td>20'-50'</td>
+<td>25'-40'</td>
+<td><img src="nan" width="30" height="30"></td>
 <td>WD</td>
-<td>Runner</td>
-<td><img src="..\images/check.png" width="30" height="30"></td>
-<td>R</td>
+<td></td>
+<td></td>
+<td>R / DT</td>
 <td>LN</td>
 <td>Spring</td>
-<td>Summer</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">Ceanothus Cuneatus</td>
-<td>Buckbrush</td>
-<td>S</td>
-<td>EG</td>
-<td>3' - 8'</td>
-<td></td>
-<td><img src="..\images/full-shade.png" width="30" height="30"></td>
-<td>Very WD</td>
 <td></td>
 <td><img src="..\images/check.png" width="30" height="30"></td>
 <td></td>
 <td></td>
-<td>Spring</td>
+<td>Seeds eaten by natives after major preparation. Aromatic leaves used as seasoning. Important hardwood.</td>
+<td>S-M</td>
+<td>Y</td>
 <td></td>
-<td><img src="..\images/check.png" width="30" height="30"></td>
-<td><img src="..\images/check.png" width="30" height="30"></td>
-<td><img src="..\images/check.png" width="30" height="30"></td>
-<td>Flowers for soap. Leaves for tea. Seeds edible. Roots for red dye &amp; medicine.</td>
-<td></td>
-<td></td>
-<td>FCRMW</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">Arctostaphylos uva-ursi</td>
-<td>Kinnikinnick</td>
-<td>GC</td>
+<td data-quarto-table-cell-role="th">Baccharis pilularis consanguinea</td>
+<td>Coyote bush (including dwarf form)</td>
+<td>S</td>
 <td>EG</td>
-<td>1" - 5"</td>
-<td>to 15'</td>
-<td><img src="..\images/full-sun-partial-sun.png" width="30" height="30"></td>
-<td>Many</td>
+<td>8'-12' / 8''-2' dwarf</td>
+<td>6'-8' dwarf</td>
+<td><img src="nan" width="30" height="30"></td>
+<td>Most</td>
 <td></td>
 <td><img src="..\images/check.png" width="30" height="30"></td>
-<td>R - DT</td>
+<td>R / DT</td>
 <td>LN</td>
-<td>Mar - June</td>
-<td>Summer</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 <td><img src="..\images/check.png" width="30" height="30"></td>
+<td>Presumably only females provid nectar and pollen. For beneficials, most nurseries only grow males. Good for erosion control. Dwarf form makes an excellent low maintenance ground cover.</td>
+<td>F</td>
+<td>I</td>
 <td></td>
-<td></td>
-<td>Best for highly maintained areas. Can be overwhelmed by weeds. Used for erosion control or for acidic low fertility areas</td>
-<td>MF</td>
-<td></td>
-<td>WPI</td>
 <td></td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">Smilacina Racemosa - See A</td>
-<td></td>
-<td>P</td>
+<td data-quarto-table-cell-role="th">Lonicera involucrata</td>
+<td>Twinberry</td>
+<td>S</td>
 <td>D</td>
-<td>1' - 3'</td>
-<td>Spread</td>
-<td><img src="..\images/full-sun.png" width="30" height="30"></td>
-<td></td>
-<td></td>
+<td>8'-13'</td>
+<td>6'-8'</td>
+<td><img src="nan" width="30" height="30"></td>
+<td>A</td>
+<td>C</td>
 <td><img src="..\images/check.png" width="30" height="30"></td>
-<td>R-SDT</td>
-<td>LN</td>
-<td>Mar - July</td>
-<td>Aug.</td>
-<td><img src="..\images/check.png" width="30" height="30"></td>
-<td></td>
-<td></td>
-<td>Edible sweet fruit. New shoots in salads. Starchy roots cooked</td>
-<td>S</td>
-<td></td>
-<td>WF</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">Tussilago Farfara</td>
-<td>Coltsfoot</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><img src="..\images/full-sun.png" width="30" height="30"></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">Montia perfoliata - See C</td>
-<td>Miner’s Lettuce</td>
-<td>AGC</td>
-<td>RESEED</td>
-<td>2" - 1'</td>
-<td>Spread</td>
-<td><img src="..\images/partial-sun-full-shade.png" width="30" height="30"></td>
-<td>Rich</td>
-<td>Seed</td>
-<td><img src="..\images/check.png" width="30" height="30"></td>
-<td>R</td>
-<td>LN</td>
-<td>May - June</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Foliage fresh for salads. Mild flavor. Good texture.</td>
-<td>R</td>
-<td></td>
-<td>W</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">Teucrium</td>
-<td>Germander</td>
-<td>GC</td>
-<td>E</td>
-<td>2"</td>
-<td>3'</td>
-<td><img src="..\images/full-sun-partial-sun.png" width="30" height="30"></td>
-<td>CL</td>
-<td>Division</td>
-<td></td>
-<td>R</td>
+<td>DT</td>
 <td>LN</td>
 <td>June</td>
+<td>Fall</td>
 <td></td>
 <td></td>
 <td></td>
-<td><img src="..\images/check.png" width="30" height="30"></td>
+<td>Bitter fruit. Good floral usage. Does well in moist conditions.</td>
 <td></td>
-<td>M</td>
+<td>Yellow-red interior</td>
 <td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">Satureja douglasii</td>
-<td>Yerba Buena</td>
-<td>GC</td>
-<td></td>
-<td>1" - 2"</td>
-<td>to 3'</td>
-<td><img src="..\images/full-sun.png" width="30" height="30"></td>
-<td>Many</td>
-<td></td>
-<td><img src="..\images/check.png" width="30" height="30"></td>
-<td>SDT-DT</td>
-<td>LN</td>
-<td>Apr - Sept</td>
-<td></td>
-<td><img src="..\images/check.png" width="30" height="30"></td>
-<td></td>
-<td></td>
-<td>Foliage makes a tasty aromatic tea.</td>
-<td>S</td>
-<td></td>
-<td>W</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">Coptis Sp.</td>
-<td>Goldthread</td>
-<td>GC</td>
-<td></td>
-<td>4"</td>
-<td></td>
-<td><img src="..\images/partial-sun-full-shade.png" width="30" height="30"></td>
-<td>Forest Loam</td>
-<td></td>
+<td data-quarto-table-cell-role="th">Viburnum trilobum</td>
+<td>High bush cranberry</td>
+<td>S</td>
+<td>D</td>
+<td>6'-10'</td>
+<td>6'-12'</td>
+<td><img src="nan" width="30" height="30"></td>
+<td>Moist</td>
+<td>C</td>
 <td><img src="..\images/check.png" width="30" height="30"></td>
+<td>R</td>
+<td>LN</td>
+<td>Spring</td>
+<td>Fall</td>
 <td></td>
 <td></td>
 <td></td>
-<td></td>
-<td><img src="..\images/check.png" width="30" height="30"></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Beautiful fall collor (yellow/red). Edible berry.</td>
+<td>M</td>
+<td>W</td>
 <td></td>
 <td></td>
-<td></td>
-<td>EG</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">Baccharis Magellanica</td>
+<td data-quarto-table-cell-role="th">Physocarpus capitatus</td>
+<td>Ninebark</td>
+<td>S</td>
+<td>D</td>
+<td>5'-20'</td>
+<td>5'-10'</td>
+<td><img src="nan" width="30" height="30"></td>
+<td>Moist</td>
+<td>C</td>
+<td><img src="..\images/check.png" width="30" height="30"></td>
+<td>DT</td>
+<td>LN</td>
+<td>spring</td>
+<td>Fall</td>
 <td></td>
-<td>GC</td>
 <td></td>
-<td>6"</td>
 <td></td>
+<td>Fruit is reddish-brown.</td>
+<td></td>
+<td>W</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Gaultheria shallon</td>
+<td>Salal</td>
+<td>S</td>
+<td>EG</td>
+<td>1'-3' occ. to 10'</td>
+<td>spreads</td>
+<td><img src="nan" width="30" height="30"></td>
+<td>Prefer Rich WD</td>
+<td></td>
+<td><img src="..\images/check.png" width="30" height="30"></td>
+<td>R / DT</td>
+<td>LN</td>
+<td>May - July</td>
+<td>August</td>
+<td><img src="..\images/check.png" width="30" height="30"></td>
+<td></td>
+<td></td>
+<td>Foliage is used as a flavring by native people and the floral industry. Erosion control. Wildlife habitat.</td>
+<td>First slow then fast</td>
+<td>W/PI</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Cotoneaster franchettii</td>
+<td></td>
+<td>S</td>
+<td>E</td>
+<td>10'-15'</td>
+<td>10'</td>
 <td><img src="..\images/full-sun-partial-sun.png" width="30" height="30"></td>
-<td>Clay Loam</td>
-<td></td>
+<td>R</td>
+<td>C</td>
 <td></td>
 <td>DT</td>
-<td>ZIP</td>
+<td>LN</td>
+<td>Spring</td>
+<td>Fall</td>
 <td></td>
-<td></td>
-<td>Unknown</td>
 <td></td>
 <td><img src="..\images/check.png" width="30" height="30"></td>
-<td></td>
-<td>M</td>
-<td>Excellent</td>
+<td>Extremely high antioxidant levels in fruit. Excellent cooked.</td>
+<td>M/F</td>
 <td>W</td>
-<td>EG</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">Smilacina Stellata - See B</td>
-<td>Starry False Solomon's Seal</td>
+<td data-quarto-table-cell-role="th">Cotoneaster horizontalus</td>
+<td>Cotoneaster</td>
 <td>GC</td>
-<td>D</td>
-<td>10" - 12"</td>
-<td>Spread</td>
+<td></td>
+<td>3'</td>
+<td>8'</td>
 <td><img src="..\images/full-sun-partial-sun.png" width="30" height="30"></td>
-<td></td>
-<td></td>
-<td><img src="..\images/check.png" width="30" height="30"></td>
-<td>R-DT</td>
-<td>LN</td>
-<td>Mar - June</td>
-<td>Aug.</td>
-<td><img src="..\images/check.png" width="30" height="30"></td>
-<td></td>
-<td></td>
-<td>Edible sweet fruit. Tastes somewhat like raisins.</td>
-<td>MF</td>
-<td></td>
-<td>WF</td>
-<td></td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">Maianthemum Dilatatum</td>
-<td>False Lily of the Valley</td>
-<td>GC</td>
-<td>N</td>
-<td>6" - 15"</td>
-<td>Spread</td>
-<td><img src="..\images/partial-sun-full-shade.png" width="30" height="30"></td>
-<td></td>
-<td></td>
-<td><img src="..\images/check.png" width="30" height="30"></td>
-<td>RW</td>
-<td>LN</td>
-<td>May - June</td>
-<td>Sept.</td>
-<td><img src="..\images/check.png" width="30" height="30"></td>
-<td></td>
-<td></td>
-<td>Edible sweet fruit. Eat in moderation to avoid stomach ache. Best combined with vegetable oil.</td>
-<td>MF</td>
-<td></td>
-<td>WF</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">Peltiphyllum Peltatum</td>
-<td>Umbrella Plant</td>
-<td></td>
-<td>D</td>
-<td>1' - 4'</td>
-<td>Spread by Rhizome</td>
-<td><img src="..\images/partial-sun-full-shade.png" width="30" height="30"></td>
-<td>Wet</td>
-<td></td>
-<td>Unknown</td>
-<td>RW</td>
-<td>LN</td>
-<td>Apr - July</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Very young leaf stalks &amp; flower stalks peeled &amp; eaten fresh. Loses flavor cooked. Steam older stalks (bland &amp; stringy) / reported from Benton County south. More common S. Oregon Cascades mid to low altitudes. Inhabits western Cascade stream banks sometimes even growing in fast moving stream. Found in mixed forests &amp; Ponderosa forests. Great plumes of flowers followed by giant leaves 1' to 3' across. Round leaves face up and resemble an umbrella.</td>
-<td></td>
-<td></td>
-<td>W-PI-PU</td>
-<td></td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">Petasites Frigibus - See D</td>
-<td>Palmate Sweet Coltsfoot</td>
-<td></td>
-<td>D</td>
-<td>6" - 4'</td>
-<td>Creeping Rhizome Colonize</td>
-<td><img src="..\images/partial-sun-full-shade.png" width="30" height="30"></td>
-<td>Rich Moist</td>
-<td></td>
-<td><img src="..\images/check.png" width="30" height="30"></td>
-<td>RW</td>
-<td>LN</td>
-<td>Feb - June</td>
-<td></td>
-<td><img src="..\images/check.png" width="30" height="30"></td>
-<td></td>
-<td><img src="..\images/check.png" width="30" height="30"></td>
-<td>Young leaves &amp; possibly flower stalks contain a modest amount of Purrolizidine Alkaloids that cause permanent liver damage. Mature leaves said to have almost none. Roots (rhizomes) may have none of this alkaloid. Indian Tribes (some) ate young leaves &amp; flower heads. Also, peeled young stalks cooked / rhizomes sometimes eaten if not used for medicine. Important salt substitute for some tribes. Leaves &amp; stems are dried, burned &amp; used as a seasoning rich in mineral salts.</td>
+<td>R</td>
 <td>R</td>
 <td></td>
-<td>FW-PI</td>
+<td>DT</td>
+<td>LN</td>
+<td>Spring</td>
+<td>Fall</td>
+<td></td>
+<td></td>
+<td><img src="..\images/check.png" width="30" height="30"></td>
+<td>Red berries.</td>
+<td>M/F</td>
+<td>W</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Holodiscus discolor</td>
+<td>Creambush oceanspray</td>
+<td>S</td>
+<td>D</td>
+<td>10'-15'</td>
+<td>6'-8'</td>
+<td><img src="..\images/full-sun-partial-sun.png" width="30" height="30"></td>
+<td>A</td>
+<td>S / Seedling</td>
+<td><img src="..\images/check.png" width="30" height="30"></td>
+<td>DT</td>
+<td>LN</td>
+<td>Summer</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Prune after bloom. Wood used for arrows by Native American.</td>
+<td>M</td>
+<td>W</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Oemleria cerasiformis</td>
+<td>Osoberry</td>
+<td>S</td>
+<td>D</td>
+<td>15'-20'</td>
+<td>8'</td>
+<td><img src="..\images/full-sun.png" width="30" height="30"></td>
+<td>A</td>
+<td>S / Seedling</td>
+<td><img src="..\images/check.png" width="30" height="30"></td>
+<td>DT / Moist</td>
+<td>LN</td>
+<td>March</td>
+<td>Fall</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Bittersweet taste. Wood used for arrows by Native Americans.</td>
+<td>M</td>
+<td>W</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Escallonia</td>
+<td>Escallonia</td>
+<td>S</td>
+<td>E</td>
+<td>many, varies</td>
+<td></td>
+<td><img src="..\images/full-sun-partial-sun.png" width="30" height="30"></td>
+<td>A</td>
+<td>C</td>
+<td></td>
+<td>DT</td>
+<td>LN</td>
+<td>Summer</td>
+<td></td>
+<td></td>
+<td></td>
+<td><img src="..\images/check.png" width="30" height="30"></td>
+<td>Blooms all summer.</td>
+<td>F</td>
+<td>PI</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Abelia</td>
+<td>Abelia</td>
+<td>S</td>
+<td>D</td>
+<td>many, varies</td>
+<td></td>
+<td><img src="..\images/full-sun-partial-sun.png" width="30" height="30"></td>
+<td>A</td>
+<td>C</td>
+<td></td>
+<td>DT</td>
+<td>LN</td>
+<td>Summer</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Blooms all summer.</td>
+<td>M/F</td>
+<td>W/PI</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Philadelphus lewisii</td>
+<td>Philadelphus</td>
+<td>S</td>
+<td>D</td>
+<td>5'-10'</td>
+<td>5'-10'</td>
+<td><img src="..\images/full-sun-partial-sun.png" width="30" height="30"></td>
+<td>A</td>
+<td>C</td>
+<td><img src="..\images/check.png" width="30" height="30"></td>
+<td>DT</td>
+<td>LN</td>
+<td>Late Spring</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Fragrant blossoms.</td>
+<td>M</td>
+<td>W</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Pernettya mucronata</td>
+<td>Chilean pernetlya</td>
+<td>S</td>
+<td>E</td>
+<td>2'-3'</td>
+<td>3'-4'</td>
+<td><img src="..\images/full-sun-partial-sun.png" width="30" height="30"></td>
+<td>A / Moist</td>
+<td>C</td>
+<td></td>
+<td>R</td>
+<td>LN</td>
+<td>Late Spring</td>
+<td>Fall</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Birds enjoy berries</td>
+<td>M</td>
+<td>PI</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Fuscia magellonica</td>
+<td>Hardy fuschia</td>
+<td>S</td>
+<td>D</td>
+<td>4'-8'</td>
+<td>4'-6'</td>
+<td><img src="..\images/full-sun-partial-sun.png" width="30" height="30"></td>
+<td>A</td>
+<td></td>
+<td></td>
+<td>R</td>
+<td>LN</td>
+<td>Summer</td>
+<td></td>
+<td></td>
+<td></td>
+<td><img src="..\images/check.png" width="30" height="30"></td>
+<td>Edible fruit, flowers for hummingbirds.</td>
+<td>F</td>
+<td>PI</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Cornus stolonifers</td>
+<td>Red dogwood</td>
+<td>S</td>
+<td>D</td>
+<td>7'-9'</td>
+<td>10'</td>
+<td><img src="..\images/full-shade.png" width="30" height="30"></td>
+<td>A</td>
+<td>C / S/ R</td>
+<td><img src="..\images/check.png" width="30" height="30"></td>
+<td>DT / Moist</td>
+<td>LN</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img src="..\images/check.png" width="30" height="30"></td>
+<td>Red stems attractive in winter.</td>
+<td>F</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Arbutusunedo compacta</td>
+<td>Strawberry osier tree</td>
+<td>S</td>
+<td>E</td>
+<td>6'-10'</td>
+<td>6'-8'</td>
+<td><img src="..\images/full-sun-partial-sun.png" width="30" height="30"></td>
+<td>A</td>
+<td>C</td>
+<td></td>
+<td>DT</td>
+<td>LN</td>
+<td>Spring</td>
+<td>Fall</td>
+<td></td>
+<td></td>
+<td><img src="..\images/check.png" width="30" height="30"></td>
+<td>Can handle most any conditions. Fruit good in a mix with other berries for jam.</td>
+<td>M</td>
+<td>W</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Corylus cornuta</td>
+<td>Hazel</td>
+<td>S</td>
+<td>D</td>
+<td>12'-15'</td>
+<td>12'</td>
+<td><img src="..\images/full-sun-partial-sun.png" width="30" height="30"></td>
+<td>A</td>
+<td>S</td>
+<td><img src="..\images/check.png" width="30" height="30"></td>
+<td>DT</td>
+<td>LN</td>
+<td></td>
+<td></td>
+<td><img src="..\images/check.png" width="30" height="30"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Rosa Rugosa</td>
+<td>Rugosa or Ramanas rose</td>
+<td>S</td>
+<td>D</td>
+<td>2'-8'</td>
+<td>4'-6'</td>
+<td><img src="..\images/full-shade.png" width="30" height="30"></td>
+<td>Many</td>
+<td></td>
+<td>NaN</td>
+<td>R / DT</td>
+<td>LN</td>
+<td>June - Aug.</td>
+<td>Late Summer/Early Fall</td>
+<td><img src="..\images/check.png" width="30" height="30"></td>
+<td></td>
+<td></td>
+<td>Edible fruit with up to 24 times more vitamin C than oranges. Grown commercially in the U.S. for natural vitamin C supplements. Rugosas fruit also a good source of vitamin A, E, niacin, riboflavin, vitamin K, various minterals, and other beneficial substances. Fruit is dried or cooked for james, jellies, syrups, soup, sauce, tea, wine, etc. Leaves fresh or dry for aromatic tea or seasoning. Edible flower petals in salads or teas. Rose water in skin care and other cosmetic product is much esteemed. Flowers in fragrant potpourris. Erosion control. Very wind resistant.</td>
+<td>F</td>
+<td>W/PI/F R/PU</td>
+<td>x</td>
 <td></td>
 </tr>
 </tbody>

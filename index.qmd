@@ -63,7 +63,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 :::
 
 <!-- table section -->
-# Plants Lists at a Glance {#plant-tables}
+# Plant Lists at a Glance {#plant-tables}
 :::{.panel-tabset}
 
 ## Trees
